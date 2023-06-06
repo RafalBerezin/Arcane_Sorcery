@@ -1,0 +1,12 @@
+{
+    "pack": {
+        "pack_format": 15,
+        "author": {
+            "name": "Rafał Berezin",
+            "github": "https://github.com/RafalBerezin"
+        },  
+        "homepage":"https://github.com/RafalBerezin/Arcane_Sorcery",
+        "version": "1.20_2.0.0",
+        "description": "placeholder"
+    }
+}

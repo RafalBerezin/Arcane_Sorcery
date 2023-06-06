@@ -1,0 +1,46 @@
+CustomModelData structure: [PPPGIII]
+# 7 digits to be safe
+# due to Int to Float32 conversion, numbers above 16_777_216 experience loss of precision
+
+[P] Datapack prefix: 276 #constant
+
+ITEM: minecraft:carrot_on_a_stick #right_click_detection
+
+    [G] Group id:
+        0 - Spellcasting Objects
+        1 - Other Items
+
+    [I] Item id #see_item_registry
+
+    CustomModelData registry:
+        276 0 999 - Test #Test Datapack Only
+        
+        276 0 000 - Glacial Rod
+        276 0 001 - Infernal Scepter
+        276 0 002 - Lightning Wand
+        276 0 003 - Venomous Staff
+        276 0 004 - Vampiric Scepter
+        276 0 005 - Shining Rod
+        276 0 006 - Explosion Wand
+        276 0 007 - Staff of Water
+        276 0 008 - Wind Wand
+        276 0 009 - Shadow Scepter
+        276 0 010 - Dislocation Orb
+        276 0 011 - Time Keepers Watch
+
+        276 1 001 - Mana Crystal
+
+ITEM: minecraft:stick #animation_purposes
+
+    [G] Group id:
+        0 - Rune Circles
+        1 - Individual Runes
+        2 - Other Items
+
+    [I] Item id #see_item_registry
+
+    CustomModelData registry:
+        276 0 001 - Rune Circle Blue 32
+        276 0 002 - Rune Circle Red 32
+        
+        276 2 001 - Mana Shard

@@ -1,0 +1,7 @@
+Shader created by PuckiSilver
+to allow removing text shadows in:
+    actionbar
+    title
+    subtitle
+
+Go check it out: https://github.com/PuckiSilver/NoShadow/tree/main
