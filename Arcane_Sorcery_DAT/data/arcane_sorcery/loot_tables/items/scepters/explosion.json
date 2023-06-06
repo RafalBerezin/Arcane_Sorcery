@@ -1,0 +1,146 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{PickupDelay:20,Unbreakable:1b,HideFlags:4,CustomModelData:2760006,ArcaneSorcery:{v:\"2.0.0\",Scepter:1b,Explosion:1b}}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Explosion Wand",
+                                "color": "dark_red",
+                                "bold": true,
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "     \uE401   PASSIVE   \uE402     ",
+                                    "color": "gold",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "\uE300",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " Passive",
+                                        "color": "#D16341",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "     \uE401   SPELLS    \uE402     ",
+                                    "color": "gold",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "\uE300",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " Flaming Burst",
+                                        "color": "#D16341",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "\uE300",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " Pyrotechnic Drill",
+                                        "color": "#D16341",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "\uE300",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " Explosive Ring",
+                                        "color": "#D16341",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "\uE300",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " Meteorite Shower",
+                                        "color": "#D16341",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "\uE300",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " EXPLOOOOSION!",
+                                        "color": "#D16341",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

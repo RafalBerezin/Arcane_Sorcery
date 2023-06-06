@@ -1,0 +1,146 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{PickupDelay:20,Unbreakable:1b,HideFlags:4,CustomModelData:2760011,ArcaneSorcery:{v:\"2.0.0\",Scepter:1b,Time:1b}}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Time Keeper's Watch",
+                                "color": "#905245",
+                                "bold": true,
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "     \uE401   PASSIVE   \uE402     ",
+                                    "color": "gold",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "\uE300",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " Passive",
+                                        "color": "#905245",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "     \uE401   SPELLS    \uE402     ",
+                                    "color": "gold",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "\uE300",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " Time Shift",
+                                        "color": "#905245",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "\uE300",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " Accelerate",
+                                        "color": "#905245",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "\uE300",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " [SPELL3]",
+                                        "color": "#905245",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "\uE300",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " Rewind",
+                                        "color": "#905245",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "\uE300",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " ZA WARUDO!",
+                                        "color": "#905245",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

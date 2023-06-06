@@ -1,0 +1,146 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{PickupDelay:20,Unbreakable:1b,HideFlags:4,CustomModelData:2760002,ArcaneSorcery:{v:\"2.0.0\",Scepter:1b,Lightning:1b}}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Lightning Wand",
+                                "color": "#8CB6FF",
+                                "bold": true,
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "     \uE401   PASSIVE   \uE402     ",
+                                    "color": "gold",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "\uE300",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " Passive",
+                                        "color": "#8CB6FF",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "     \uE401   SPELLS    \uE402     ",
+                                    "color": "gold",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "\uE300",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " Dancing Lightnings",
+                                        "color": "#8CB6FF",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "\uE300",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " Flash",
+                                        "color": "#8CB6FF",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "\uE300",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " Lightning Rush",
+                                        "color": "#8CB6FF",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "\uE300",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " Shimmering Trap",
+                                        "color": "#8CB6FF",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "\uE300",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " Electric Prison",
+                                        "color": "#8CB6FF",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

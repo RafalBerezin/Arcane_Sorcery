@@ -1,0 +1,146 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{PickupDelay:20,Unbreakable:1b,HideFlags:4,CustomModelData:2760010,ArcaneSorcery:{v:\"2.0.0\",Scepter:1b,Dislocation:1b}}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Dislocation Orb",
+                                "color": "dark_green",
+                                "bold": true,
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "     \uE401   PASSIVE   \uE402     ",
+                                    "color": "gold",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "\uE300",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " Passive",
+                                        "color": "dark_green",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "     \uE401   SPELLS    \uE402     ",
+                                    "color": "gold",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "\uE300",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " Teleport",
+                                        "color": "dark_green",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "\uE300",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " Wall Phase",
+                                        "color": "dark_green",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "\uE300",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " Spatial Leash",
+                                        "color": "dark_green",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "\uE300",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " Whoosh you were here",
+                                        "color": "dark_green",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "\uE300",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " Pocket Dimension",
+                                        "color": "dark_green",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

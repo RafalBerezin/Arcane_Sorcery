@@ -1,0 +1,146 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{PickupDelay:20,Unbreakable:1b,HideFlags:4,CustomModelData:2760001,ArcaneSorcery:{v:\"2.0.0\",Scepter:1b,Infernal:1b}}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Infernal Scepter",
+                                "color": "dark_red",
+                                "bold": true,
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "     \uE401   PASSIVE   \uE402     ",
+                                    "color": "gold",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "\uE300",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " Passive",
+                                        "color": "dark_red",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "     \uE401   SPELLS    \uE402     ",
+                                    "color": "gold",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "\uE300",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " Fireball",
+                                        "color": "dark_red",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "\uE300",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " Ring of Ember",
+                                        "color": "dark_red",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "\uE300",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " Burning Shield",
+                                        "color": "dark_red",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "\uE300",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " Will o' the Wisp",
+                                        "color": "dark_red",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "\uE300",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " Dragon's Breath",
+                                        "color": "dark_red",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

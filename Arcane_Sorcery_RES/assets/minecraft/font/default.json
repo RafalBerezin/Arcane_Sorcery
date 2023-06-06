@@ -1,0 +1,102 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "icons/util/mana_crystal.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": ["\uE201"]
+        },
+        {
+            "type": "bitmap",
+            "file": "icons/util/blood_crystal.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": ["\uE202"]
+        },
+        {
+            "type": "bitmap",
+            "file": "icons/util/clock.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": ["\uE203"]
+        },
+        {
+            "type": "bitmap",
+            "file": "icons/util/active.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": ["\uE204"]
+        },
+        {
+            "type": "bitmap",
+            "file": "icons/util/inactive.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": ["\uE205"]
+        },
+        {
+            "type": "bitmap",
+            "file": "icons/util/charging.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": ["\uE206"]
+        },
+        {
+            "type": "bitmap",
+            "file": "icons/spells/placeholder.png",
+            "ascent": 12,
+            "height": 18,
+            "chars": ["\uE300"]
+        },
+        {
+            "type": "bitmap",
+            "file": "icons/spells/glacial/ray_of_frost.png",
+            "ascent": 12,
+            "height": 18,
+            "chars": ["\uE301"]
+        },
+        {
+            "type": "bitmap",
+            "file": "icons/spells/glacial/explosion_of_cold.png",
+            "ascent": 12,
+            "height": 18,
+            "chars": ["\uE302"]
+        },
+        {
+            "type": "bitmap",
+            "file": "icons/spells/glacial/glacier.png",
+            "ascent": 12,
+            "height": 18,
+            "chars": ["\uE303"]
+        },
+        {
+            "type": "bitmap",
+            "file": "icons/spells/glacial/avatar_of_frost.png",
+            "ascent": 12,
+            "height": 18,
+            "chars": ["\uE304"]
+        },
+        {
+            "type": "bitmap",
+            "file": "icons/spells/glacial/blizzard.png",
+            "ascent": 12,
+            "height": 18,
+            "chars": ["\uE305"]
+        },
+        {
+            "type": "bitmap",
+            "file": "icons/decoration/left_bracket.png",
+            "ascent": 11,
+            "height": 14,
+            "chars": ["\uE401"]
+        },
+        {
+            "type": "bitmap",
+            "file": "icons/decoration/right_bracket.png",
+            "ascent": 11,
+            "height": 14,
+            "chars": ["\uE402"]
+        }
+    ]
+}
