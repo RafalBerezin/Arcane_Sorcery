@@ -19,7 +19,7 @@
                             "function": "minecraft:set_name",
                             "name": {
                                 "text": "Explosion Wand",
-                                "color": "dark_red",
+                                "color": "#D16341",
                                 "bold": true,
                                 "italic": false
                             }
@@ -40,7 +40,7 @@
                                 },
                                 [
                                     {
-                                        "text": "\uE300",
+                                        "text": "\uE337",
                                         "color": "white",
                                         "italic": false
                                     },
@@ -63,7 +63,7 @@
                                 },
                                 [
                                     {
-                                        "text": "\uE300",
+                                        "text": "\uE338",
                                         "color": "white",
                                         "italic": false
                                     },
@@ -78,7 +78,7 @@
                                 },
                                 [
                                     {
-                                        "text": "\uE300",
+                                        "text": "\uE339",
                                         "color": "white",
                                         "italic": false
                                     },
@@ -93,7 +93,7 @@
                                 },
                                 [
                                     {
-                                        "text": "\uE300",
+                                        "text": "\uE340",
                                         "color": "white",
                                         "italic": false
                                     },
@@ -108,7 +108,7 @@
                                 },
                                 [
                                     {
-                                        "text": "\uE300",
+                                        "text": "\uE341",
                                         "color": "white",
                                         "italic": false
                                     },
@@ -123,7 +123,7 @@
                                 },
                                 [
                                     {
-                                        "text": "\uE300",
+                                        "text": "\uE342",
                                         "color": "white",
                                         "italic": false
                                     },
@@ -133,6 +133,61 @@
                                         "italic": false
                                     }
                                 ],
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "[",
+                                        "color": "gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "keybind": "key.use",
+                                        "color": "gray",
+                                        "bold": true,
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "] to cast spell",
+                                        "color": "gray",
+                                        "italic": false
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "[",
+                                        "color": "gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "keybind": "key.use",
+                                        "color": "gray",
+                                        "bold": true,
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "] + [",
+                                        "color": "gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "keybind": "key.sneak",
+                                        "color": "gray",
+                                        "bold": true,
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "]",
+                                        "color": "gray",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": "to change spell",
+                                    "color": "gray",
+                                    "italic": false
+                                },
                                 {
                                     "text": " "
                                 }

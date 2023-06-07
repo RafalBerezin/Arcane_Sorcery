@@ -30,11 +30,77 @@ scoreboard objectives add ASMainCD dummy
 # --- SCEPTERS ---
 
 # Glacial Rod
+scoreboard objectives add ASGlacialM dummy
 scoreboard objectives add ASGlacialCD1 dummy
 scoreboard objectives add ASGlacialCD2 dummy
 scoreboard objectives add ASGlacialCD3 dummy
 scoreboard objectives add ASGlacialCD4 dummy
 scoreboard objectives add ASGlacialCD5 dummy
+
+# Infernal Scepter
+scoreboard objectives add ASInfernalM dummy
+scoreboard objectives add ASInfernalCD1 dummy
+scoreboard objectives add ASInfernalCD2 dummy
+scoreboard objectives add ASInfernalCD3 dummy
+scoreboard objectives add ASInfernalCD4 dummy
+scoreboard objectives add ASInfernalCD5 dummy
+
+# Lightning Wand
+scoreboard objectives add ASLightningM dummy
+scoreboard objectives add ASLightningCD1 dummy
+scoreboard objectives add ASLightningCD2 dummy
+scoreboard objectives add ASLightningCD3 dummy
+scoreboard objectives add ASLightningCD4 dummy
+scoreboard objectives add ASLightningCD5 dummy
+
+# Venomous Staff
+scoreboard objectives add ASVenomousM dummy
+scoreboard objectives add ASVenomousCD1 dummy
+scoreboard objectives add ASVenomousCD2 dummy
+scoreboard objectives add ASVenomousCD3 dummy
+scoreboard objectives add ASVenomousCD4 dummy
+scoreboard objectives add ASVenomousCD5 dummy
+
+# Vampiric Scepter
+scoreboard objectives add ASVampiricM dummy
+scoreboard objectives add ASVampiricCD1 dummy
+scoreboard objectives add ASVampiricCD2 dummy
+scoreboard objectives add ASVampiricCD3 dummy
+scoreboard objectives add ASVampiricCD4 dummy
+scoreboard objectives add ASVampiricCD5 dummy
+
+# Shining Rod
+scoreboard objectives add ASShiningM dummy
+scoreboard objectives add ASShiningCD1 dummy
+scoreboard objectives add ASShiningCD2 dummy
+scoreboard objectives add ASShiningCD3 dummy
+scoreboard objectives add ASShiningCD4 dummy
+scoreboard objectives add ASShiningCD5 dummy
+
+# Explosion Wand
+scoreboard objectives add ASExplosionM dummy
+scoreboard objectives add ASExplosionCD1 dummy
+scoreboard objectives add ASExplosionCD2 dummy
+scoreboard objectives add ASExplosionCD3 dummy
+scoreboard objectives add ASExplosionCD4 dummy
+scoreboard objectives add ASExplosionCD5 dummy
+
+# Staff of Water
+scoreboard objectives add ASWaterM dummy
+scoreboard objectives add ASWaterWBM dummy
+scoreboard objectives add ASWaterCD1 dummy
+scoreboard objectives add ASWaterCD2 dummy
+scoreboard objectives add ASWaterCD3 dummy
+scoreboard objectives add ASWaterCD4 dummy
+scoreboard objectives add ASWaterCD5 dummy
+
+# 
+scoreboard objectives add ASWindM dummy
+scoreboard objectives add ASWindCD1 dummy
+scoreboard objectives add ASWindCD2 dummy
+scoreboard objectives add ASWindCD3 dummy
+scoreboard objectives add ASWindCD4 dummy
+scoreboard objectives add ASWindCD5 dummy
 
 # --- ITEMS ---
 

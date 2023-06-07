@@ -40,7 +40,7 @@
                                 },
                                 [
                                     {
-                                        "text": "\uE300",
+                                        "text": "\uE355",
                                         "color": "white",
                                         "italic": false
                                     },
@@ -63,7 +63,7 @@
                                 },
                                 [
                                     {
-                                        "text": "\uE300",
+                                        "text": "\uE356",
                                         "color": "white",
                                         "italic": false
                                     },
@@ -78,7 +78,7 @@
                                 },
                                 [
                                     {
-                                        "text": "\uE300",
+                                        "text": "\uE357",
                                         "color": "white",
                                         "italic": false
                                     },
@@ -93,7 +93,7 @@
                                 },
                                 [
                                     {
-                                        "text": "\uE300",
+                                        "text": "\uE358",
                                         "color": "white",
                                         "italic": false
                                     },
@@ -108,7 +108,7 @@
                                 },
                                 [
                                     {
-                                        "text": "\uE300",
+                                        "text": "\uE359",
                                         "color": "white",
                                         "italic": false
                                     },
@@ -123,7 +123,7 @@
                                 },
                                 [
                                     {
-                                        "text": "\uE300",
+                                        "text": "\uE360",
                                         "color": "white",
                                         "italic": false
                                     },
@@ -133,6 +133,61 @@
                                         "italic": false
                                     }
                                 ],
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "[",
+                                        "color": "gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "keybind": "key.use",
+                                        "color": "gray",
+                                        "bold": true,
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "] to cast spell",
+                                        "color": "gray",
+                                        "italic": false
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "[",
+                                        "color": "gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "keybind": "key.use",
+                                        "color": "gray",
+                                        "bold": true,
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "] + [",
+                                        "color": "gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "keybind": "key.sneak",
+                                        "color": "gray",
+                                        "bold": true,
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "]",
+                                        "color": "gray",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": "to change spell",
+                                    "color": "gray",
+                                    "italic": false
+                                },
                                 {
                                     "text": " "
                                 }
