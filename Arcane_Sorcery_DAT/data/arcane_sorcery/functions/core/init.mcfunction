@@ -115,6 +115,10 @@ scoreboard objectives add ASEManaCrystalT dummy
 # forceload center of the world to allow assigning directional entity motion
 # execute unless loaded 0 0 0 run forceload add -1 -1 0 0
 
+# Add utility teams
+team add AS.whitelisted
+team add AS.blacklisted
+
 # Initialize global settings
 function arcane_sorcery:config/global/initialize_global_settings
 

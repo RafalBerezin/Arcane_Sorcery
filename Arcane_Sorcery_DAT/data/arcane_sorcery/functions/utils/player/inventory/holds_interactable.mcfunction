@@ -3,5 +3,5 @@
 
 # Flag if the item in player's hand has custom datapack data and cache it
 data remove storage minecraft:arcane_sorcery player.held.ArcaneSorcery
-execute store success score #as_holds_interactable ASFlag run data modify storage minecraft:arcane_sorcery player.held.ArcaneSorcery set from entity @s SelectedItem.tag.ArcaneSorcery
+execute store success score #as.temp.holds_interactable ASFlag run data modify storage minecraft:arcane_sorcery player.held.ArcaneSorcery set from entity @s SelectedItem.tag.ArcaneSorcery
 # TODO implement offhand usage

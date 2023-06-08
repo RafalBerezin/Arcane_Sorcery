@@ -21,6 +21,12 @@ execute unless score #as.global_settings.mana.defaults ASMaxMana = #as.global_se
 execute unless score #as.global_settings.mana.defaults ASManaRegen = #as.global_settings.mana.defaults ASManaRegen run scoreboard players set #as.global_settings.mana.defaults ASManaRegen 1
 
 
+# [ ----- MISC ----- ]
+
+# Whitelist and Blacklist
+execute unless score #as.global_settings.misc.whitelist ASFlag = #as.global_settings.misc.whitelist ASFlag run scoreboard players set #as.global_settings.misc.whitelist ASFlag 0
+execute unless score #as.global_settings.misc.blacklist ASFlag = #as.global_settings.misc.blacklist ASFlag run scoreboard players set #as.global_settings.misc.blacklist ASFlag 0
+
 
 # [ ----- SPELLS ----- ]
 
