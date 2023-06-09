@@ -65,7 +65,6 @@ scoreboard objectives add ASVenomousCD5 dummy
 scoreboard objectives add ASVampiricM dummy
 scoreboard objectives add ASVampiricCD1 dummy
 scoreboard objectives add ASVampiricCD2 dummy
-scoreboard objectives add ASVampiricCD3 dummy
 scoreboard objectives add ASVampiricCD4 dummy
 scoreboard objectives add ASVampiricCD5 dummy
 
@@ -80,7 +79,6 @@ scoreboard objectives add ASShiningCD5 dummy
 # Explosion Wand
 scoreboard objectives add ASExplosionM dummy
 scoreboard objectives add ASExplosionCD1 dummy
-scoreboard objectives add ASExplosionCD2 dummy
 scoreboard objectives add ASExplosionCD3 dummy
 scoreboard objectives add ASExplosionCD4 dummy
 scoreboard objectives add ASExplosionCD5 dummy
@@ -89,7 +87,6 @@ scoreboard objectives add ASExplosionCD5 dummy
 scoreboard objectives add ASWaterM dummy
 scoreboard objectives add ASWaterWBM dummy
 scoreboard objectives add ASWaterCD1 dummy
-scoreboard objectives add ASWaterCD2 dummy
 scoreboard objectives add ASWaterCD3 dummy
 scoreboard objectives add ASWaterCD4 dummy
 scoreboard objectives add ASWaterCD5 dummy
@@ -98,7 +95,6 @@ scoreboard objectives add ASWaterCD5 dummy
 scoreboard objectives add ASWindM dummy
 scoreboard objectives add ASWindCD1 dummy
 scoreboard objectives add ASWindCD2 dummy
-scoreboard objectives add ASWindCD3 dummy
 scoreboard objectives add ASWindCD4 dummy
 scoreboard objectives add ASWindCD5 dummy
 
@@ -118,6 +114,9 @@ scoreboard objectives add ASEManaCrystalT dummy
 # Add utility teams
 team add AS.whitelisted
 team add AS.blacklisted
+
+# Initialize const values
+function arcane_sorcery:utils/scoreboard/init_const
 
 # Initialize global settings
 function arcane_sorcery:config/global/initialize_global_settings

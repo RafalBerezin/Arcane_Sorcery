@@ -11,10 +11,10 @@ execute unless score @s ASWaterM matches 2.. unless score @s ASWaterCD1 matches 
 execute if score @s ASWaterM matches 2 unless score @s ASWaterCD2 matches 1.. unless score @s ASMainCD matches 1.. run function arcane_sorcery:spell/water/surf/main
 
 # Tsunami
-execute if score @s ASWaterM matches 3 unless score @s ASWaterCD3 matches 1.. unless score @s ASMainCD matches 1.. if score @s ASMana >= #as.global_settings.costs.water.tsunami.mana ASFlag run function arcane_sorcery:spell/water/tsunami/main
+execute if score @s ASWaterM matches 3 unless score @s ASWaterCD3 matches 1.. unless score @s ASMainCD matches 1.. if score @s ASMana >= #as.global_settings.cost.water.tsunami.mana ASFlag run function arcane_sorcery:spell/water/tsunami/main
 
 # Curse of the Sea
-execute if score @s ASWaterM matches 4 unless score @s ASWaterCD4 matches 1.. unless score @s ASMainCD matches 1.. if score @s ASMana >= #as.global_settings.costs.water.curse_of_the_sea.mana ASFlag run function arcane_sorcery:spell/water/curse_of_the_sea/main
+execute if score @s ASWaterM matches 4 unless score @s ASWaterCD4 matches 1.. unless score @s ASMainCD matches 1.. if score @s ASMana >= #as.global_settings.cost.water.curse_of_the_sea.mana ASFlag run function arcane_sorcery:spell/water/curse_of_the_sea/main
 
 # Water Bending
 # [MULTIMODE] Mana handled internally

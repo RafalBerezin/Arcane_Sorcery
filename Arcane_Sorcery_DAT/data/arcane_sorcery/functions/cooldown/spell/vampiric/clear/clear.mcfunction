@@ -1,0 +1,6 @@
+# Called by arcane_sorcery:cooldown/spell/vampiric/clear/check
+# Removes branch tag and calls lower level check
+
+tag @s remove AS.cooldown.spell.vampiric
+
+function arcane_sorcery:cooldown/spell/clear/check

@@ -1,0 +1,4 @@
+# Called by arcane_sorcery:core/player20t
+# Search for the specific cooldown's handler
+
+execute if entity @s[tag=AS.cooldown.spell] run function arcane_sorcery:cooldown/spell/main
