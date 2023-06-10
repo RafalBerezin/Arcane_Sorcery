@@ -1,0 +1,9 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "minecraft:item/stick"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2760001 }, "model": "item/custom/rune_circle/blue/blue_32" }
+    ]
+}

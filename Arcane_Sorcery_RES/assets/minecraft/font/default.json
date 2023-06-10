@@ -51,38 +51,129 @@
         },
         {
             "type": "bitmap",
-            "file": "icons/spells/glacial/ray_of_frost.png",
+            "file": "icons/spells/glacial/passive.png",
             "ascent": 12,
             "height": 18,
             "chars": ["\uE301"]
         },
         {
             "type": "bitmap",
-            "file": "icons/spells/glacial/explosion_of_cold.png",
+            "file": "icons/spells/glacial/ray_of_frost.png",
             "ascent": 12,
             "height": 18,
             "chars": ["\uE302"]
         },
         {
             "type": "bitmap",
-            "file": "icons/spells/glacial/glacier.png",
+            "file": "icons/spells/glacial/explosion_of_cold.png",
             "ascent": 12,
             "height": 18,
             "chars": ["\uE303"]
         },
         {
             "type": "bitmap",
-            "file": "icons/spells/glacial/avatar_of_frost.png",
+            "file": "icons/spells/glacial/glacier.png",
             "ascent": 12,
             "height": 18,
             "chars": ["\uE304"]
         },
         {
             "type": "bitmap",
-            "file": "icons/spells/glacial/blizzard.png",
+            "file": "icons/spells/glacial/avatar_of_frost.png",
             "ascent": 12,
             "height": 18,
             "chars": ["\uE305"]
+        },
+        {
+            "type": "bitmap",
+            "file": "icons/spells/glacial/blizzard.png",
+            "ascent": 12,
+            "height": 18,
+            "chars": ["\uE306"]
+        },
+        {
+            "type": "bitmap",
+            "file": "icons/spells/infernal/passive.png",
+            "ascent": 12,
+            "height": 18,
+            "chars": ["\uE307"]
+        },
+        {
+            "type": "bitmap",
+            "file": "icons/spells/infernal/fireball.png",
+            "ascent": 12,
+            "height": 18,
+            "chars": ["\uE308"]
+        },
+        {
+            "type": "bitmap",
+            "file": "icons/spells/infernal/ring_of_ember.png",
+            "ascent": 12,
+            "height": 18,
+            "chars": ["\uE309"]
+        },
+        {
+            "type": "bitmap",
+            "file": "icons/spells/infernal/burning_shield.png",
+            "ascent": 12,
+            "height": 18,
+            "chars": ["\uE310"]
+        },
+        {
+            "type": "bitmap",
+            "file": "icons/spells/infernal/will_o_the_wisp.png",
+            "ascent": 12,
+            "height": 18,
+            "chars": ["\uE311"]
+        },
+        {
+            "type": "bitmap",
+            "file": "icons/spells/infernal/dragons_breath.png",
+            "ascent": 12,
+            "height": 18,
+            "chars": ["\uE312"]
+        },
+        {
+            "type": "bitmap",
+            "file": "icons/spells/lightning/passive.png",
+            "ascent": 12,
+            "height": 18,
+            "chars": ["\uE313"]
+        },
+        {
+            "type": "bitmap",
+            "file": "icons/spells/lightning/dancing_lightnings.png",
+            "ascent": 12,
+            "height": 18,
+            "chars": ["\uE314"]
+        },
+        {
+            "type": "bitmap",
+            "file": "icons/spells/lightning/flash.png",
+            "ascent": 12,
+            "height": 18,
+            "chars": ["\uE315"]
+        },
+        {
+            "type": "bitmap",
+            "file": "icons/spells/lightning/lightning_rush.png",
+            "ascent": 12,
+            "height": 18,
+            "chars": ["\uE316"]
+        },
+        {
+            "type": "bitmap",
+            "file": "icons/spells/lightning/shimmering_trap.png",
+            "ascent": 12,
+            "height": 18,
+            "chars": ["\uE317"]
+        },
+        {
+            "type": "bitmap",
+            "file": "icons/spells/lightning/electric_prison.png",
+            "ascent": 12,
+            "height": 18,
+            "chars": ["\uE318"]
         },
         {
             "type": "bitmap",

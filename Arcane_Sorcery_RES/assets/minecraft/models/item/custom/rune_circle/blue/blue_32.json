@@ -1,0 +1,13 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/rune_circle/blue/blue_32"
+    },
+	"display": {
+		"head": {
+			"rotation": [0, 0, 0],
+			"translation": [0, 0, 0],
+			"scale": [3, 3, 1]
+		}
+	}
+}
