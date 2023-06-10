@@ -36,6 +36,8 @@ scoreboard objectives remove ASGlacialCD3
 scoreboard objectives remove ASGlacialCD4
 scoreboard objectives remove ASGlacialCD5
 
+scoreboard objectives remove ASFreezeT
+
 # Infernal Scepter
 scoreboard objectives remove ASInfernalM
 scoreboard objectives remove ASInfernalCD1

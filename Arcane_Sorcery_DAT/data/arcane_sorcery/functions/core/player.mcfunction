@@ -11,7 +11,7 @@ function arcane_sorcery:utils/player/inventory/holds_interactable
 # --- Whitelist and Blacklist functionality ---
 function arcane_sorcery:utils/player/misc/wb_check
 # Stop executing code if wb_check flagged #as.temp.return
-execute if score #as.temp.return ASFlag matches 1 run return 1
+execute if score #as.temp.return ASFlag matches 1 run return 0
 
 # If the item has custom datapack data, search for the specific item handler
 execute if score #as.temp.holds_interactable ASFlag matches 1 run function arcane_sorcery:item/main

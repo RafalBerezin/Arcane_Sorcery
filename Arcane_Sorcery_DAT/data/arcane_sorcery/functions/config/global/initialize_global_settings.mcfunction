@@ -160,3 +160,25 @@ execute unless score #as.global_settings.cooldown.wind.tornado ASFlag = #as.glob
 execute unless score #as.global_settings.cooldown.wind.windy_chains ASFlag = #as.global_settings.cooldown.wind.windy_chains ASFlag run scoreboard players set #as.global_settings.cooldown.wind.windy_chains ASFlag 30
 execute unless score #as.global_settings.cooldown.wind.hurricane ASFlag = #as.global_settings.cooldown.wind.hurricane ASFlag run scoreboard players set #as.global_settings.cooldown.wind.hurricane ASFlag 120
 
+
+
+# [ --- RANGES --- ]
+
+# Glacial Rod
+execute unless score #as.global_settings.range.glacial.ray_of_frost ASFlag = #as.global_settings.range.glacial.ray_of_frost ASFlag run scoreboard players set #as.global_settings.range.glacial.ray_of_frost ASFlag 30
+execute unless score #as.global_settings.range.glacial.glacier ASFlag = #as.global_settings.range.glacial.glacier ASFlag run scoreboard players set #as.global_settings.range.glacial.glacier ASFlag 60
+execute unless score #as.global_settings.range.glacial.blizzard ASFlag = #as.global_settings.range.glacial.blizzard ASFlag run scoreboard players set #as.global_settings.range.glacial.blizzard ASFlag 45
+
+
+
+# [ --- DURATIONS --- ]
+
+# Glacial Rod
+execute unless score #as.global_settings.duration.glacial.ray_of_frost.effect.freeze ASFlag = #as.global_settings.duration.glacial.ray_of_frost.effect.freeze ASFlag run scoreboard players set #as.global_settings.duration.glacial.ray_of_frost.effect.freeze ASFlag 80
+
+
+
+# [ --- DAMAGES --- ]
+
+# Glacial Rod
+execute unless score #as.global_settings.damage.glacial.ray_of_frost ASFlag = #as.global_settings.damage.glacial.ray_of_frost ASFlag run scoreboard players set #as.global_settings.damage.glacial.ray_of_frost ASFlag 10
