@@ -30,7 +30,7 @@ execute unless score #as.global_settings.misc.blacklist ASFlag = #as.global_sett
 
 # [ ----- SPELLS ----- ]
 
-# --- Costs ---
+# [ --- COSTS --- ]
 
 # Glacial Rod
 execute unless score #as.global_settings.cost.glacial.ray_of_frost.mana ASFlag = #as.global_settings.cost.glacial.ray_of_frost.mana ASFlag run scoreboard players set #as.global_settings.cost.glacial.ray_of_frost.mana ASFlag 10
@@ -96,6 +96,15 @@ execute unless score #as.global_settings.cost.wind.tornado.mana ASFlag = #as.glo
 execute unless score #as.global_settings.cost.wind.wind_riding.mana ASFlag = #as.global_settings.cost.wind.wind_riding.mana ASFlag run scoreboard players set #as.global_settings.cost.wind.wind_riding.mana ASFlag 20
 execute unless score #as.global_settings.cost.wind.windy_chains.mana ASFlag = #as.global_settings.cost.wind.windy_chains.mana ASFlag run scoreboard players set #as.global_settings.cost.wind.windy_chains.mana ASFlag 20
 execute unless score #as.global_settings.cost.wind.hurricane.mana ASFlag = #as.global_settings.cost.wind.hurricane.mana ASFlag run scoreboard players set #as.global_settings.cost.wind.hurricane.mana ASFlag 4
+
+
+
+# [ --- COST RETURNS --- ]
+
+# Glacial Rod
+execute unless score #as.global_settings.cost.glacial.explosion_of_cold.mana.charge.0 ASFlag = #as.global_settings.cost.glacial.explosion_of_cold.mana.charge.0 ASFlag run scoreboard players set #as.global_settings.cost.glacial.explosion_of_cold.mana.charge.0 ASFlag 20
+execute unless score #as.global_settings.cost.glacial.explosion_of_cold.mana.charge.1 ASFlag = #as.global_settings.cost.glacial.explosion_of_cold.mana.charge.1 ASFlag run scoreboard players set #as.global_settings.cost.glacial.explosion_of_cold.mana.charge.1 ASFlag 10
+execute unless score #as.global_settings.cost.glacial.explosion_of_cold.mana.charge.2 ASFlag = #as.global_settings.cost.glacial.explosion_of_cold.mana.charge.2 ASFlag run scoreboard players set #as.global_settings.cost.glacial.explosion_of_cold.mana.charge.2 ASFlag 5
 
 
 
@@ -175,6 +184,8 @@ execute unless score #as.global_settings.range.glacial.blizzard ASFlag = #as.glo
 
 # Glacial Rod
 execute unless score #as.global_settings.duration.glacial.ray_of_frost.effect.freeze ASFlag = #as.global_settings.duration.glacial.ray_of_frost.effect.freeze ASFlag run scoreboard players set #as.global_settings.duration.glacial.ray_of_frost.effect.freeze ASFlag 80
+execute unless score #as.global_settings.duration.glacial.explosion_of_cold.charge ASFlag = #as.global_settings.duration.glacial.explosion_of_cold.charge ASFlag run scoreboard players set #as.global_settings.duration.glacial.explosion_of_cold.charge ASFlag 20
+execute unless score #as.global_settings.duration.glacial.explosion_of_cold.effect.freeze ASFlag = #as.global_settings.duration.glacial.explosion_of_cold.effect.freeze ASFlag run scoreboard players set #as.global_settings.duration.glacial.explosion_of_cold.effect.freeze ASFlag 40
 
 
 
@@ -182,3 +193,6 @@ execute unless score #as.global_settings.duration.glacial.ray_of_frost.effect.fr
 
 # Glacial Rod
 execute unless score #as.global_settings.damage.glacial.ray_of_frost ASFlag = #as.global_settings.damage.glacial.ray_of_frost ASFlag run scoreboard players set #as.global_settings.damage.glacial.ray_of_frost ASFlag 10
+execute unless score #as.global_settings.damage.glacial.explosion_of_cold.charge.1 ASFlag = #as.global_settings.damage.glacial.explosion_of_cold.charge.1 ASFlag run scoreboard players set #as.global_settings.damage.glacial.explosion_of_cold.charge.1 ASFlag 4
+execute unless score #as.global_settings.damage.glacial.explosion_of_cold.charge.2 ASFlag = #as.global_settings.damage.glacial.explosion_of_cold.charge.2 ASFlag run scoreboard players set #as.global_settings.damage.glacial.explosion_of_cold.charge.2 ASFlag 8
+execute unless score #as.global_settings.damage.glacial.explosion_of_cold.charge.3 ASFlag = #as.global_settings.damage.glacial.explosion_of_cold.charge.3 ASFlag run scoreboard players set #as.global_settings.damage.glacial.explosion_of_cold.charge.3 ASFlag 12

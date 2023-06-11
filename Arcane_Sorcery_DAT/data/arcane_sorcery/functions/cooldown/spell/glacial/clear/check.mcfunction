@@ -1,4 +1,4 @@
 # Called by this function branch's cooldown handlers
 # Checks if the branch tag should be removed
 
-execute unless score @s ASGlacialCD1 matches 1.. unless score @s ASGlacialCD2 matches 1.. unless score @s ASGlacialCD3 matches 1.. unless score @s ASGlacialCD4 matches 1.. unless score @s ASGlacialCD5 matches 1.. run function arcane_sorcery:cooldown/spell/glacial/clear/clear
+execute if entity @s[tag=!AS.cooldown.spell.glacial.ray_of_frost,tag=!AS.cooldown.spell.glacial.explosion_of_cold,tag=!AS.cooldown.spell.glacial.glacier,tag=!AS.cooldown.spell.glacial.avatar_of_frost,tag=!AS.cooldown.spell.glacial.blizzard] run function arcane_sorcery:cooldown/spell/glacial/clear/clear

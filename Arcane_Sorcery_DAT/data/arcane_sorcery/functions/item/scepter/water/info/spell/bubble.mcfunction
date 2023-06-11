@@ -3,7 +3,7 @@
 
 # Get the higher cooldown
 scoreboard players operation #as.temp.cooldown ASCalc = @s ASWaterCD1
-function test:utils/player/cooldown/get_max
+function arcane_sorcery:utils/player/cooldown/get_max
 
 # TODO add changing indicator
 
