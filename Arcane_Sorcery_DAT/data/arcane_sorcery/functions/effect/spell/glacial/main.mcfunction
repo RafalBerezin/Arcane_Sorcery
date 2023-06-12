@@ -3,3 +3,4 @@
 
 execute if entity @s[tag=AS.effect.spell.glacial.freeze] run function arcane_sorcery:effect/spell/glacial/freeze/main
 execute if entity @s[tag=AS.effect.spell.glacial.explosion_of_cold] run function arcane_sorcery:effect/spell/glacial/explosion_of_cold/main
+execute if entity @s[tag=AS.effect.spell.glacial.glacier] run function arcane_sorcery:effect/spell/glacial/glacier/main
