@@ -102,9 +102,9 @@ execute unless score #as.global_settings.cost.wind.hurricane.mana ASFlag = #as.g
 # [ --- COST RETURNS --- ]
 
 # Glacial Rod
-execute unless score #as.global_settings.cost.glacial.explosion_of_cold.mana.charge.0 ASFlag = #as.global_settings.cost.glacial.explosion_of_cold.mana.charge.0 ASFlag run scoreboard players set #as.global_settings.cost.glacial.explosion_of_cold.mana.charge.0 ASFlag 20
-execute unless score #as.global_settings.cost.glacial.explosion_of_cold.mana.charge.1 ASFlag = #as.global_settings.cost.glacial.explosion_of_cold.mana.charge.1 ASFlag run scoreboard players set #as.global_settings.cost.glacial.explosion_of_cold.mana.charge.1 ASFlag 10
-execute unless score #as.global_settings.cost.glacial.explosion_of_cold.mana.charge.2 ASFlag = #as.global_settings.cost.glacial.explosion_of_cold.mana.charge.2 ASFlag run scoreboard players set #as.global_settings.cost.glacial.explosion_of_cold.mana.charge.2 ASFlag 5
+execute unless score #as.global_settings.cost.glacial.explosion_of_cold.mana.return.charge.0 ASFlag = #as.global_settings.cost.glacial.explosion_of_cold.mana.return.charge.0 ASFlag run scoreboard players set #as.global_settings.cost.glacial.explosion_of_cold.mana.return.charge.0 ASFlag 20
+execute unless score #as.global_settings.cost.glacial.explosion_of_cold.mana.return.charge.1 ASFlag = #as.global_settings.cost.glacial.explosion_of_cold.mana.return.charge.1 ASFlag run scoreboard players set #as.global_settings.cost.glacial.explosion_of_cold.mana.return.charge.1 ASFlag 10
+execute unless score #as.global_settings.cost.glacial.explosion_of_cold.mana.return.charge.2 ASFlag = #as.global_settings.cost.glacial.explosion_of_cold.mana.return.charge.2 ASFlag run scoreboard players set #as.global_settings.cost.glacial.explosion_of_cold.mana.return.charge.2 ASFlag 5
 
 
 

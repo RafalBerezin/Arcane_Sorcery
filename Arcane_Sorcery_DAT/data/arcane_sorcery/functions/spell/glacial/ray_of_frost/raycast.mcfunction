@@ -18,4 +18,4 @@ execute unless block ^ ^ ^0.5 #arcane_sorcery:glacial_ignore run return 0
 execute if block ~ ~ ~ minecraft:water run setblock ~ ~ ~ minecraft:ice
 
 # Execute next loop iteration further
-execute if score #as.loop ASCalc matches 1.. positioned ^ ^ ^0.5 if entity @s[distance=..100] run function arcane_sorcery:spell/glacial/ray_of_frost/raycast
+execute if score #as.loop ASCalc matches 1.. positioned ^ ^ ^0.5 run function arcane_sorcery:spell/glacial/ray_of_frost/raycast

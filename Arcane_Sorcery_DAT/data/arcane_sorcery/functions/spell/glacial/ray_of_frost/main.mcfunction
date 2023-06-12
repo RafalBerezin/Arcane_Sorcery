@@ -1,5 +1,5 @@
 # Called by arcane_sorcery:item/scepter/glacial/spell_cast
-# Spell handler
+# Ray of Frost spell handler
 
 # Add cooldown scores and tags
 tag @s add AS.cooldown
@@ -19,8 +19,8 @@ tag @s add AS.spell.caster
 tag @s add AS.damage.source
 
 # Spell sound
-execute at @s positioned ~ ~1 ~ run playsound minecraft:block.conduit.deactivate master @a ~ ~ ~ 1
-execute at @s positioned ~ ~1 ~ run playsound minecraft:entity.wither.shoot master @a ~ ~ ~ 0.3 0
+playsound minecraft:block.conduit.deactivate master @a ~ ~1 ~ 1
+playsound minecraft:entity.wither.shoot master @a ~ ~1 ~ 0.3 0
 
 # Summon spell cast animation
 execute anchored eyes positioned ^ ^ ^1 run function arcane_sorcery:anim/spell/glacial/ray_of_frost/summon

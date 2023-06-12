@@ -119,9 +119,29 @@ team remove AS.blacklisted
 
 
 
+# [ ----- CLEAR STORED DATA ----- ]
+
+data remove storage minecraft:arcane_sorcery utils
+data remove storage minecraft:arcane_sorcery player
+
+
+
+# [ ----- STOP THE DATAPACK ----- ]
+
+# Stop the loops
+schedule clear arcane_sorcery:core/main
+schedule clear arcane_sorcery:core/main20t
+
+# Disable the datapack
+# TODO change to the zip name for release
+datapack disable "file/Arcane_Sorcery_DAT"
+
+
+
 # [ ----- INFORM USER ----- ]
 
 # TODO use global settings: broadcast info
 tellraw @a [{"text":"\uE201\uE201\uE201"},{"text":" Arcane Sorcery has been Uninstalled ","color":"#AA12CC"},{"text":"\uE201\uE201\uE201"}]
+# TODO check for success
 # TODO add click event
 tellraw @a [{"text":"\uE201\uE201\uE201"},{"text":" Use \"/datapack disable [NAME]\" to disable the datapack ","color":"#AA12CC"},{"text":"\uE201\uE201\uE201"}]
