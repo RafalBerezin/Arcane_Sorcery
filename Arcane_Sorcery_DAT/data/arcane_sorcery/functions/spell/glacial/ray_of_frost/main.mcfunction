@@ -3,6 +3,7 @@
 
 # Add cooldown scores and tags
 tag @s add AS.cooldown
+tag @s add AS.cooldown.main
 tag @s add AS.cooldown.spell
 tag @s add AS.cooldown.spell.glacial
 tag @s add AS.cooldown.spell.glacial.ray_of_frost

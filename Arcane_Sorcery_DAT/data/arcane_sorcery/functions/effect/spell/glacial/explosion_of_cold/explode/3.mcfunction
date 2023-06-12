@@ -17,6 +17,9 @@ playsound minecraft:entity.generic.explode master @a ~ ~ ~ 1 0
 # Display explosion particles
 particle minecraft:spit ~ ~1 ~ 0.2 0.2 0.2 0.7 350 force
 
+# Freeze water
+function arcane_sorcery:effect/spell/glacial/explosion_of_cold/explode/freeze
+
 # Add caster tags
 tag @s add AS.damage.source
 tag @s add AS.spell.caster
