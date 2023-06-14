@@ -1,6 +1,6 @@
 {
     "values": [
-        "#arcane_sorcery:universal_ignore",
-        "#arcane_sorcery:helper_entities"
+        "#arcane_sorcery:spell_ignore_target_pearls",
+        "minecraft:ender_pearl"
     ]
 }

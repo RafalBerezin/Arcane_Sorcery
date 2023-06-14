@@ -36,7 +36,8 @@ execute unless score #as.global_settings.misc.blacklist ASFlag = #as.global_sett
 execute unless score #as.global_settings.cost.glacial.ray_of_frost.mana ASFlag = #as.global_settings.cost.glacial.ray_of_frost.mana ASFlag run scoreboard players set #as.global_settings.cost.glacial.ray_of_frost.mana ASFlag 10
 execute unless score #as.global_settings.cost.glacial.explosion_of_cold.mana ASFlag = #as.global_settings.cost.glacial.explosion_of_cold.mana ASFlag run scoreboard players set #as.global_settings.cost.glacial.explosion_of_cold.mana ASFlag 20
 execute unless score #as.global_settings.cost.glacial.glacier.mana ASFlag = #as.global_settings.cost.glacial.glacier.mana ASFlag run scoreboard players set #as.global_settings.cost.glacial.glacier.mana ASFlag 20
-execute unless score #as.global_settings.cost.glacial.avatar_of_frost.mana ASFlag = #as.global_settings.cost.glacial.avatar_of_frost.mana ASFlag run scoreboard players set #as.global_settings.cost.glacial.avatar_of_frost.mana ASFlag 5
+execute unless score #as.global_settings.cost.glacial.avatar_of_frost.mana.utility ASFlag = #as.global_settings.cost.glacial.avatar_of_frost.mana.utility ASFlag run scoreboard players set #as.global_settings.cost.glacial.avatar_of_frost.mana.utility ASFlag 2
+execute unless score #as.global_settings.cost.glacial.avatar_of_frost.mana.attack ASFlag = #as.global_settings.cost.glacial.avatar_of_frost.mana.attack ASFlag run scoreboard players set #as.global_settings.cost.glacial.avatar_of_frost.mana.attack ASFlag 5
 execute unless score #as.global_settings.cost.glacial.blizzard.mana ASFlag = #as.global_settings.cost.glacial.blizzard.mana ASFlag run scoreboard players set #as.global_settings.cost.glacial.blizzard.mana ASFlag 60
 
 

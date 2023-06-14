@@ -39,6 +39,9 @@ scoreboard objectives add ASGlacialCD5 dummy
 
 scoreboard objectives add ASFreezeT dummy
 scoreboard objectives add ASExpOfColdT dummy
+scoreboard objectives add ASAvOfFrostM dummy
+scoreboard objectives add ASAvOfFrostMT dummy
+scoreboard objectives add ASAvOfFrostCold dummy
 
 # Infernal Scepter
 scoreboard objectives add ASInfernalM dummy
