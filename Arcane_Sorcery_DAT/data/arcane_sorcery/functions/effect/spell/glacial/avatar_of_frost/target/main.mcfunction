@@ -9,7 +9,7 @@ execute unless entity @s[tag=AS.effect.spell.glacial.avatar_of_frost.target.in_r
 execute if entity @s[tag=AS.effect.spell.glacial.avatar_of_frost.target.in_range] run tag @s remove AS.effect.spell.glacial.avatar_of_frost.target.in_range
 
 # If the target is still affected by the spell apply effects
-execute if score @s ASAvOfFrostCold matches 1.. run function arcane_sorcery:effect/spell/glacial/avatar_of_frost/target/effect
+execute if score @s ASAvOfFrostCold matches 1.. run function arcane_sorcery:effect/spell/glacial/avatar_of_frost/target/effect/main
 
 # If the spell effect has faded remove it
-execute unless score @s ASAvOfFrostCold matches 1.. run function arcane_sorcery:effect/spell/glacial/avatar_of_frost/target/deactivate
+execute unless score @s ASAvOfFrostCold matches 1.. run function arcane_sorcery:effect/spell/glacial/avatar_of_frost/target/clear

@@ -190,6 +190,8 @@ execute unless score #as.global_settings.duration.glacial.explosion_of_cold.effe
 execute unless score #as.global_settings.duration.glacial.glacier.effect.wall ASFlag = #as.global_settings.duration.glacial.glacier.effect.wall ASFlag run scoreboard players set #as.global_settings.duration.glacial.glacier.effect.wall ASFlag 200
 execute unless score #as.global_settings.duration.glacial.glacier.effect.ceiling ASFlag = #as.global_settings.duration.glacial.glacier.effect.ceiling ASFlag run scoreboard players set #as.global_settings.duration.glacial.glacier.effect.ceiling ASFlag 200
 execute unless score #as.global_settings.duration.glacial.glacier.effect.bubble ASFlag = #as.global_settings.duration.glacial.glacier.effect.bubble ASFlag run scoreboard players set #as.global_settings.duration.glacial.glacier.effect.bubble ASFlag 200
+execute unless score #as.global_settings.duration.glacial.avatar_of_frost.effect.charge ASFlag = #as.global_settings.duration.glacial.avatar_of_frost.effect.charge ASFlag run scoreboard players set #as.global_settings.duration.glacial.avatar_of_frost.effect.charge ASFlag 20
+execute unless score #as.global_settings.duration.glacial.avatar_of_frost.effect.freeze ASFlag = #as.global_settings.duration.glacial.avatar_of_frost.effect.freeze ASFlag run scoreboard players set #as.global_settings.duration.glacial.avatar_of_frost.effect.freeze ASFlag 20
 
 
 
