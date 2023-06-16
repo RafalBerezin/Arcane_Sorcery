@@ -107,6 +107,11 @@ execute unless score #as.global_settings.cost.glacial.explosion_of_cold.mana.ret
 execute unless score #as.global_settings.cost.glacial.explosion_of_cold.mana.return.charge.1 ASFlag = #as.global_settings.cost.glacial.explosion_of_cold.mana.return.charge.1 ASFlag run scoreboard players set #as.global_settings.cost.glacial.explosion_of_cold.mana.return.charge.1 ASFlag 10
 execute unless score #as.global_settings.cost.glacial.explosion_of_cold.mana.return.charge.2 ASFlag = #as.global_settings.cost.glacial.explosion_of_cold.mana.return.charge.2 ASFlag run scoreboard players set #as.global_settings.cost.glacial.explosion_of_cold.mana.return.charge.2 ASFlag 5
 
+# Infernal Scepter
+execute unless score #as.global_settings.cost.infernal.fireball.mana.return.charge.0 ASFlag = #as.global_settings.cost.infernal.fireball.mana.return.charge.0 ASFlag run scoreboard players set #as.global_settings.cost.infernal.fireball.mana.return.charge.0 ASFlag 20
+execute unless score #as.global_settings.cost.infernal.fireball.mana.return.charge.1 ASFlag = #as.global_settings.cost.infernal.fireball.mana.return.charge.1 ASFlag run scoreboard players set #as.global_settings.cost.infernal.fireball.mana.return.charge.1 ASFlag 10
+execute unless score #as.global_settings.cost.infernal.fireball.mana.return.charge.2 ASFlag = #as.global_settings.cost.infernal.fireball.mana.return.charge.2 ASFlag run scoreboard players set #as.global_settings.cost.infernal.fireball.mana.return.charge.2 ASFlag 5
+
 
 
 # [ --- COOLDOWNS --- ]
@@ -193,6 +198,9 @@ execute unless score #as.global_settings.duration.glacial.glacier.effect.bubble 
 execute unless score #as.global_settings.duration.glacial.avatar_of_frost.effect.charge ASFlag = #as.global_settings.duration.glacial.avatar_of_frost.effect.charge ASFlag run scoreboard players set #as.global_settings.duration.glacial.avatar_of_frost.effect.charge ASFlag 20
 execute unless score #as.global_settings.duration.glacial.avatar_of_frost.effect.freeze ASFlag = #as.global_settings.duration.glacial.avatar_of_frost.effect.freeze ASFlag run scoreboard players set #as.global_settings.duration.glacial.avatar_of_frost.effect.freeze ASFlag 20
 
+# Infernal Scepter
+execute unless score #as.global_settings.duration.infernal.fireball.effect.charge ASFlag = #as.global_settings.duration.infernal.fireball.effect.charge ASFlag run scoreboard players set #as.global_settings.duration.infernal.fireball.effect.charge ASFlag 20
+
 
 
 # [ --- DAMAGES --- ]
@@ -202,3 +210,8 @@ execute unless score #as.global_settings.damage.glacial.ray_of_frost ASFlag = #a
 execute unless score #as.global_settings.damage.glacial.explosion_of_cold.charge.1 ASFlag = #as.global_settings.damage.glacial.explosion_of_cold.charge.1 ASFlag run scoreboard players set #as.global_settings.damage.glacial.explosion_of_cold.charge.1 ASFlag 4
 execute unless score #as.global_settings.damage.glacial.explosion_of_cold.charge.2 ASFlag = #as.global_settings.damage.glacial.explosion_of_cold.charge.2 ASFlag run scoreboard players set #as.global_settings.damage.glacial.explosion_of_cold.charge.2 ASFlag 8
 execute unless score #as.global_settings.damage.glacial.explosion_of_cold.charge.3 ASFlag = #as.global_settings.damage.glacial.explosion_of_cold.charge.3 ASFlag run scoreboard players set #as.global_settings.damage.glacial.explosion_of_cold.charge.3 ASFlag 12
+
+# Infernal Scepter
+execute unless score #as.global_settings.damage.infernal.fireball.charge.1 ASFlag = #as.global_settings.damage.infernal.fireball.charge.1 ASFlag run scoreboard players set #as.global_settings.damage.infernal.fireball.charge.1 ASFlag 8
+execute unless score #as.global_settings.damage.infernal.fireball.charge.2 ASFlag = #as.global_settings.damage.infernal.fireball.charge.2 ASFlag run scoreboard players set #as.global_settings.damage.infernal.fireball.charge.2 ASFlag 12
+execute unless score #as.global_settings.damage.infernal.fireball.charge.3 ASFlag = #as.global_settings.damage.infernal.fireball.charge.3 ASFlag run scoreboard players set #as.global_settings.damage.infernal.fireball.charge.3 ASFlag 16

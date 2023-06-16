@@ -50,6 +50,8 @@ scoreboard objectives remove ASInfernalCD3
 scoreboard objectives remove ASInfernalCD4
 scoreboard objectives remove ASInfernalCD5
 
+scoreboard objectives remove ASFireballT
+
 # Lightning Wand
 scoreboard objectives remove ASLightningM
 scoreboard objectives remove ASLightningCD1

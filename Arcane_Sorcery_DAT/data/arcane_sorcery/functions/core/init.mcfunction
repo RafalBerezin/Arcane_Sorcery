@@ -51,6 +51,8 @@ scoreboard objectives add ASInfernalCD3 dummy
 scoreboard objectives add ASInfernalCD4 dummy
 scoreboard objectives add ASInfernalCD5 dummy
 
+scoreboard objectives add ASFireballT dummy
+
 # Lightning Wand
 scoreboard objectives add ASLightningM dummy
 scoreboard objectives add ASLightningCD1 dummy
