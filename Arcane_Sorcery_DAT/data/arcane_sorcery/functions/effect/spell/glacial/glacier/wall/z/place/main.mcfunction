@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:effect/spell/glacial/glacier/wall/z/main
+#> Called by arcane_sorcery:effect/spell/glacial/glacier/wall/z/main
 # Place ice wall along Z axis
 
 # Get wall place time

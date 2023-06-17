@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:core/player20t
+#> Called by arcane_sorcery:core/player20t
 # Mana system handler
 
 # Assign the default mana regen value, if not already present

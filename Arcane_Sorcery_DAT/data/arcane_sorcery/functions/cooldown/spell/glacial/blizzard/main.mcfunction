@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:cooldown/spell/glacial
+#> Called by arcane_sorcery:cooldown/spell/glacial
 # Blizzard cooldown handler
 
 scoreboard players remove @s ASGlacialCD5 1

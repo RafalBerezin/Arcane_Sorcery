@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:effect/spell/infernal/fireball/player/shoot/main
+#> Called by arcane_sorcery:effect/spell/infernal/fireball/player/shoot/main
 # Cancel the spell (charge 0)
 
 # Return mana

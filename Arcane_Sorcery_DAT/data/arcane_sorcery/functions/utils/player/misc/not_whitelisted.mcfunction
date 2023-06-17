@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:utils/player/misc/wb_check
+#> Called by arcane_sorcery:utils/player/misc/wb_check
 # Not whitelisted player handler
 
 # Display whitelist information if player is holding custom interactable item

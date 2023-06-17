@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:effect/spell/glacial/avatar_of_frost/target/effect/apply
+#> Called by arcane_sorcery:effect/spell/glacial/avatar_of_frost/target/effect/apply
 # Add spell effect with strength 6
 
 # Add freeze effect duration

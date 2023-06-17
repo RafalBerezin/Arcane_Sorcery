@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:effect/spell/infernal/fireball/player/main
+#> Called by arcane_sorcery:effect/spell/infernal/fireball/player/main
 # Check if the spell should charge
 
 # Check timer for whole seconds (default)

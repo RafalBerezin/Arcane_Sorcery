@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:cooldown/spell/glacial
+#> Called by arcane_sorcery:cooldown/spell/glacial
 # Avatar of Frost cooldown handler
 
 scoreboard players remove @s ASGlacialCD4 1

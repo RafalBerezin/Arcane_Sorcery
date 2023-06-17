@@ -1,4 +1,4 @@
-# Called by arcane_sorcety:effect/spell/glacial/explosion_of_cold/particle/main
+#> Called by arcane_sorcety:effect/spell/glacial/explosion_of_cold/particle/main
 # Display effect particles for charge 1
 
 # Charge indicator

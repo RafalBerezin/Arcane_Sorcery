@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:effect/spell/glacial/avatar_of_frost/main
+#> Called by arcane_sorcery:effect/spell/glacial/avatar_of_frost/main
 # Avatar of Frost effect handler for caster
 
 # Handle spell mana usage

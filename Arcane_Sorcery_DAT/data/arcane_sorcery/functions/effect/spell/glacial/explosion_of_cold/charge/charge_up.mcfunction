@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:effect/spell/glacial/explosion_of_cold/charge/check
+#> Called by arcane_sorcery:effect/spell/glacial/explosion_of_cold/charge/check
 # Charge up the spell
 
 execute if entity @s[tag=AS.charge.explosion_of_cold.2] run function arcane_sorcery:effect/spell/glacial/explosion_of_cold/charge/3

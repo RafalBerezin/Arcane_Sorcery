@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:cooldown/spell/main
+#> Called by arcane_sorcery:cooldown/spell/main
 # Search for the specific cooldown's handler
 
 execute if entity @s[tag=AS.cooldown.spell.vampiric.life_drain] run function arcane_sorcery:cooldown/spell/vampiric/life_drain/main

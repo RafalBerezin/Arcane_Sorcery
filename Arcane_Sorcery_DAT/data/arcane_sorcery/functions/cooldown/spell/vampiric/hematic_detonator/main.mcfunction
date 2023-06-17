@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:cooldown/spell/vampiric
+#> Called by arcane_sorcery:cooldown/spell/vampiric
 # Hematic Detonator cooldown handler
 
 scoreboard players remove @s ASVampiricCD4 1

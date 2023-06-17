@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:item/scepter/explosion/main
+#> Called by arcane_sorcery:item/scepter/explosion/main
 # Handle item use
 
 # Change selected spell if sneaking

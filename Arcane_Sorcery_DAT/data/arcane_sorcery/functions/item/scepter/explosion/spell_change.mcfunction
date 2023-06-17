@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:item/scepter/explosion/use
+#> Called by arcane_sorcery:item/scepter/explosion/use
 # Change selected spell
 
 # Change to next spell if player is looking doww

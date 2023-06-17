@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:effect/spell/glacial/explosion_of_cold/explode/3
+#> Called by arcane_sorcery:effect/spell/glacial/explosion_of_cold/explode/3
 # Hit with charge 3
 
 # Apply slow effect

@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:utils/damage/apply
+#> Called by arcane_sorcery:utils/damage/apply
 # Applies damage reduction
 
 # Armor Runes

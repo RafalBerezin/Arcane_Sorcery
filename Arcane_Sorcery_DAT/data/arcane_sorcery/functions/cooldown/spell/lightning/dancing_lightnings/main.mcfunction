@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:cooldown/spell/lightning
+#> Called by arcane_sorcery:cooldown/spell/lightning
 # Dancing Lightnings cooldown handler
 
 scoreboard players remove @s ASLightningCD1 1

@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:item/scepter/shining/main
+#> Called by arcane_sorcery:item/scepter/shining/main
 # Item info handler
 
 # Select current spell's info

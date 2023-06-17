@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:spell/glacial/main
+#> Called by arcane_sorcery:spell/glacial/main
 # Spell raycast loop
 
 # Decrease raycast iteration number

@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:item/scepter/glacial/use
+#> Called by arcane_sorcery:item/scepter/glacial/use
 # Cast selected spell if all conditions are met
 
 # Ray of Frost

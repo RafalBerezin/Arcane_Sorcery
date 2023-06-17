@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:cooldown/spell/vampiric
+#> Called by arcane_sorcery:cooldown/spell/vampiric
 # Life Drain cooldown handler
 
 scoreboard players remove @s ASVampiricCD1 1

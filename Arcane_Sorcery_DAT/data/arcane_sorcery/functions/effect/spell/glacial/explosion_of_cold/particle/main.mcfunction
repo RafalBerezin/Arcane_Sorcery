@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:effect/spell/glacial/explosion_of_cold/main
+#> Called by arcane_sorcery:effect/spell/glacial/explosion_of_cold/main
 # Display effect particles
 
 execute if entity @s[tag=AS.charge.explosion_of_cold.0] run function arcane_sorcery:effect/spell/glacial/explosion_of_cold/particle/0

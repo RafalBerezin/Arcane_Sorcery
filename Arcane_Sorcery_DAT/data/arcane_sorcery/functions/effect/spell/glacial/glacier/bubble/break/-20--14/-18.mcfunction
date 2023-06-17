@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:effect/spell/glacial/glacier/bubble/break/-20--14/search
+#> Called by arcane_sorcery:effect/spell/glacial/glacier/bubble/break/-20--14/search
 # Break ice bubble
 
 fill ~-4 ~-4 ~-4 ~4 ~-4 ~4 minecraft:air replace minecraft:packed_ice

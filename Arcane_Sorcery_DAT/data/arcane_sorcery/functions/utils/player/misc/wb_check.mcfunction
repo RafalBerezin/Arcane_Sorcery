@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:core/player
+#> Called by arcane_sorcery:core/player
 # Blacklist and whitelist functionality
 
 # Reset return flag

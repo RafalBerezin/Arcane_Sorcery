@@ -1,4 +1,4 @@
-# Called by minecraft:tags:functions/load.json
+#> Called by minecraft:tags:functions/load.json
 # Starting point of the datapack.
 # Initialize scoreboards and settings, display instalation information, start loops
 

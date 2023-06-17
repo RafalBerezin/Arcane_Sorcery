@@ -1,7 +1,7 @@
-# Called manually
+#> Called manually
 # Removes scoreboards and teams created by the datapack
 
-# [ ----- REMOVE SCOREBOARDS ----- ]
+#> [ ----- REMOVE SCOREBOARDS ----- ]
 
 # --- GENERIC ---
 
@@ -112,7 +112,7 @@ scoreboard objectives remove ASEManaCrystalT
 
 
 
-# [ ----- REVERT ADDITIONAL SETUP ----- ]
+#> [ ----- REVERT ADDITIONAL SETUP ----- ]
 
 # TODO move to custom dimension when implemented
 # forceload center of the world to allow assigning directional entity motion
@@ -124,14 +124,14 @@ team remove AS.blacklisted
 
 
 
-# [ ----- CLEAR STORED DATA ----- ]
+#> [ ----- CLEAR STORED DATA ----- ]
 
 data remove storage minecraft:arcane_sorcery utils
 data remove storage minecraft:arcane_sorcery player
 
 
 
-# [ ----- STOP THE DATAPACK ----- ]
+#> [ ----- STOP THE DATAPACK ----- ]
 
 # Stop the loops
 schedule clear arcane_sorcery:core/main
@@ -143,7 +143,7 @@ datapack disable "file/Arcane_Sorcery_DAT"
 
 
 
-# [ ----- INFORM USER ----- ]
+#> [ ----- INFORM USER ----- ]
 
 # TODO use global settings: broadcast info
 tellraw @a [{"text":"\uE201\uE201\uE201"},{"text":" Arcane Sorcery has been Uninstalled ","color":"#AA12CC"},{"text":"\uE201\uE201\uE201"}]

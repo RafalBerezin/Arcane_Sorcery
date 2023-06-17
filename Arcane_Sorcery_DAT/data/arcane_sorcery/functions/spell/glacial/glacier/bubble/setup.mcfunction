@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:spell/glacial/glacier/bubble/summon
+#> Called by arcane_sorcery:spell/glacial/glacier/bubble/summon
 # Setup Glacier bubble marker
 
 # Add effect tags and scores

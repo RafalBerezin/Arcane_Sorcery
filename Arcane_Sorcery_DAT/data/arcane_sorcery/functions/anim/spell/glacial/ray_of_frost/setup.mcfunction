@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:anim/spell/glacial/ray_of_frost/summon
+#> Called by arcane_sorcery:anim/spell/glacial/ray_of_frost/summon
 # Setup animation entity
 
 # Set default animation entity state

@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:core/player
+#> Called by arcane_sorcery:core/player
 # Checks whether the player is holding a custom interactable item and caches it if so
 
 # Flag if the item in player's hand has custom datapack data and cache it

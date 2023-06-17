@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:core/init
+#> Called by arcane_sorcery:core/init
 # Initialises global settings to default values
 
 # Score self comparison basically checks if the value is present
@@ -7,7 +7,7 @@
 
 
 
-# [ ----- MANA SYSTEM ----- ]
+#> [ ----- MANA SYSTEM ----- ]
 
 # Maximum value for ASMaxMana
 execute unless score #as.global_settings.mana ASMaxMana = #as.global_settings.mana ASMaxMana run scoreboard players set #as.global_settings.mana ASMaxMana 400
@@ -21,16 +21,16 @@ execute unless score #as.global_settings.mana.default ASMaxMana = #as.global_set
 execute unless score #as.global_settings.mana.default ASManaRegen = #as.global_settings.mana.default ASManaRegen run scoreboard players set #as.global_settings.mana.default ASManaRegen 1
 
 
-# [ ----- MISC ----- ]
+#> [ ----- MISC ----- ]
 
 # Whitelist and Blacklist
 execute unless score #as.global_settings.misc.whitelist ASFlag = #as.global_settings.misc.whitelist ASFlag run scoreboard players set #as.global_settings.misc.whitelist ASFlag 0
 execute unless score #as.global_settings.misc.blacklist ASFlag = #as.global_settings.misc.blacklist ASFlag run scoreboard players set #as.global_settings.misc.blacklist ASFlag 0
 
 
-# [ ----- SPELLS ----- ]
+#> [ ----- SPELLS ----- ]
 
-# [ --- COSTS --- ]
+#> [ --- COSTS --- ]
 
 # Glacial Rod
 execute unless score #as.global_settings.cost.glacial.ray_of_frost.mana ASFlag = #as.global_settings.cost.glacial.ray_of_frost.mana ASFlag run scoreboard players set #as.global_settings.cost.glacial.ray_of_frost.mana ASFlag 10
@@ -100,7 +100,7 @@ execute unless score #as.global_settings.cost.wind.hurricane.mana ASFlag = #as.g
 
 
 
-# [ --- COST RETURNS --- ]
+#> [ --- COST RETURNS --- ]
 
 # Glacial Rod
 execute unless score #as.global_settings.cost.glacial.explosion_of_cold.mana.return.charge.0 ASFlag = #as.global_settings.cost.glacial.explosion_of_cold.mana.return.charge.0 ASFlag run scoreboard players set #as.global_settings.cost.glacial.explosion_of_cold.mana.return.charge.0 ASFlag 20
@@ -114,7 +114,7 @@ execute unless score #as.global_settings.cost.infernal.fireball.mana.return.char
 
 
 
-# [ --- COOLDOWNS --- ]
+#> [ --- COOLDOWNS --- ]
 
 # Glacial Rod
 execute unless score #as.global_settings.cooldown.glacial.ray_of_frost ASFlag = #as.global_settings.cooldown.glacial.ray_of_frost ASFlag run scoreboard players set #as.global_settings.cooldown.glacial.ray_of_frost ASFlag 10
@@ -177,7 +177,7 @@ execute unless score #as.global_settings.cooldown.wind.hurricane ASFlag = #as.gl
 
 
 
-# [ --- RANGES --- ]
+#> [ --- RANGES --- ]
 
 # Glacial Rod
 execute unless score #as.global_settings.range.glacial.ray_of_frost ASFlag = #as.global_settings.range.glacial.ray_of_frost ASFlag run scoreboard players set #as.global_settings.range.glacial.ray_of_frost ASFlag 30
@@ -186,7 +186,7 @@ execute unless score #as.global_settings.range.glacial.blizzard ASFlag = #as.glo
 
 
 
-# [ --- DURATIONS --- ]
+#> [ --- DURATIONS --- ]
 
 # Glacial Rod
 execute unless score #as.global_settings.duration.glacial.ray_of_frost.effect.freeze ASFlag = #as.global_settings.duration.glacial.ray_of_frost.effect.freeze ASFlag run scoreboard players set #as.global_settings.duration.glacial.ray_of_frost.effect.freeze ASFlag 80
@@ -203,7 +203,7 @@ execute unless score #as.global_settings.duration.infernal.fireball.effect.charg
 
 
 
-# [ --- DAMAGES --- ]
+#> [ --- DAMAGES --- ]
 
 # Glacial Rod
 execute unless score #as.global_settings.damage.glacial.ray_of_frost ASFlag = #as.global_settings.damage.glacial.ray_of_frost ASFlag run scoreboard players set #as.global_settings.damage.glacial.ray_of_frost ASFlag 10

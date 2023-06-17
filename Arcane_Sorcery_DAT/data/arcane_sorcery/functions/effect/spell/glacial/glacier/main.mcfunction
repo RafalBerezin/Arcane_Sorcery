@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:effect/spell/glacial/main
+#> Called by arcane_sorcery:effect/spell/glacial/main
 # Glacier effect handler
 
 # Decrese duration timer

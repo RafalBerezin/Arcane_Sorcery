@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:cooldown/spell/water
+#> Called by arcane_sorcery:cooldown/spell/water
 # Water Bending cooldown handler
 
 scoreboard players remove @s ASWaterCD5 1

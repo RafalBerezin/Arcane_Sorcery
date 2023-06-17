@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:item/scepter/shining/use
+#> Called by arcane_sorcery:item/scepter/shining/use
 # Cast selected spell if all conditions are met
 
 # Null Magic Zone

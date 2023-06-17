@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:cooldown/spell/lightning
+#> Called by arcane_sorcery:cooldown/spell/lightning
 # Shimmering Trap cooldown handler
 
 scoreboard players remove @s ASLightningCD4 1

@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:effect/spell/glacial/freeze/marker/summon
+#> Called by arcane_sorcery:effect/spell/glacial/freeze/marker/summon
 # Setup Freeze effect marker and it's helper entities
 
 # Save affected entity's rotation to the storage

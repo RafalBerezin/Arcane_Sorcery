@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:cooldown/spell/explosion
+#> Called by arcane_sorcery:cooldown/spell/explosion
 # Meteorite Shower cooldown handler
 
 scoreboard players remove @s ASExplosionCD4 1

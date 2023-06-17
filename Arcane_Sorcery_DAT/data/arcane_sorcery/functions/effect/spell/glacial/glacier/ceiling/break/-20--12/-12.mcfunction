@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:effect/spell/glacial/glacier/ceiling/break/-20--12/search
+#> Called by arcane_sorcery:effect/spell/glacial/glacier/ceiling/break/-20--12/search
 # Break ice ceiling
 
 fill ~-3 ~ ~-3 ~3 ~ ~3 minecraft:air replace minecraft:packed_ice

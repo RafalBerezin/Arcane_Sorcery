@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:effect/spell/glacial/glacier/bubble/place/main
+#> Called by arcane_sorcery:effect/spell/glacial/glacier/bubble/place/main
 # Place ice bubble
 
 # Search for specific place time

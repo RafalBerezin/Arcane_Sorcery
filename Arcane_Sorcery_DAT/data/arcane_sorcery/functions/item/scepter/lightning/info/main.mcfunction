@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:item/scepter/lightning/main
+#> Called by arcane_sorcery:item/scepter/lightning/main
 # Item info handler
 
 # Select current spell's info

@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:spell/glacial/glacier/ceiling/summon
+#> Called by arcane_sorcery:spell/glacial/glacier/ceiling/summon
 # Setup Glacier ceiling marker
 
 # Add effect tags and scores

@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:item/scepter/water/info/main
+#> Called by arcane_sorcery:item/scepter/water/info/main
 # Display item information
 
 # Get the higher cooldown

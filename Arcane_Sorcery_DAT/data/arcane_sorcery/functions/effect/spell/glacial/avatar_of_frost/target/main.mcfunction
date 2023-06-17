@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:effect/spell/glacial/avatar_of_frost/main
+#> Called by arcane_sorcery:effect/spell/glacial/avatar_of_frost/main
 # Avatar of Frost effect handler for target
 
 # "in_range" tag indicates that the target was in the spell aoe during last tick (used instead of entity searches)

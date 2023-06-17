@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:item/scepter/infernal/main
+#> Called by arcane_sorcery:item/scepter/infernal/main
 # Handle item use
 
 # Change selected spell if sneaking

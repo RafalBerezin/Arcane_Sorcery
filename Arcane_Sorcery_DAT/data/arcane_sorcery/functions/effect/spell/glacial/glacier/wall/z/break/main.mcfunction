@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:effect/spell/glacial/glacier/wall/z/main
+#> Called by arcane_sorcery:effect/spell/glacial/glacier/wall/z/main
 # Break ice wall along Z axis
 
 execute if score @s ASEffectT matches 0 run function arcane_sorcery:effect/spell/glacial/glacier/wall/z/break/break

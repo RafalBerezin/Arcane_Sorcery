@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:utils/mana/mana_regen
+#> Called by arcane_sorcery:utils/mana/mana_regen
 # Regenerate mana using mana regen value
 
 scoreboard players operation @s ASMana += @s ASManaRegen

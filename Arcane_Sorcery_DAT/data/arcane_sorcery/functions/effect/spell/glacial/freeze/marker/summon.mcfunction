@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:effect/spell/glacial/freeze/entity/tick
+#> Called by arcane_sorcery:effect/spell/glacial/freeze/entity/tick
 # Summon freeze marker along with it's helper entities
 
 # Armor Stand instead of Marker for it to be affected by gravity

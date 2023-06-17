@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:spell/glacial/explosion_of_cold/main
+#> Called by arcane_sorcery:spell/glacial/explosion_of_cold/main
 # Deactivate the spell
 
 # Play deactivation sound

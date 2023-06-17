@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:effect/spell/glacial/avatar_of_frost/target/effect/main
+#> Called by arcane_sorcery:effect/spell/glacial/avatar_of_frost/target/effect/main
 # Apply effect with calculated strength
 
 execute if score #as.temp ASCalc matches 1 run function arcane_sorcery:effect/spell/glacial/avatar_of_frost/target/effect/strength/1

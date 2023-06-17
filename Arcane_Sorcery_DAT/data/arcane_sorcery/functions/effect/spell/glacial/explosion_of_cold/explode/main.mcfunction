@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:effect/spell/glacial/explosion_of_cold/[main,deactivate]
+#> Called by arcane_sorcery:effect/spell/glacial/explosion_of_cold/[main,deactivate]
 # Explode using current charge
 
 # Call explode function for current charge

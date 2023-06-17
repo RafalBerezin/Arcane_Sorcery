@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:core/player
+#> Called by arcane_sorcery:core/player
 # Search for the specific item's handler
 
 # TODO use proxy search for dynamic spell items

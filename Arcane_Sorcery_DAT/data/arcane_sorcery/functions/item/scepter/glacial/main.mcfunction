@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:item/scepter/main
+#> Called by arcane_sorcery:item/scepter/main
 # Glacial Rod item handler
 
 # Display item info

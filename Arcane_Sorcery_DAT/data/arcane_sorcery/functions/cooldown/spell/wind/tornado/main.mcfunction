@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:cooldown/spell/wind
+#> Called by arcane_sorcery:cooldown/spell/wind
 # Tornado cooldown handler
 
 scoreboard players remove @s ASWindCD2 1

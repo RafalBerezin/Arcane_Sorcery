@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:core/init
+#> Called by arcane_sorcery:core/init
 # [ ----- MAIN LOOP (20/s) ----- ]
 
 # TODO add auto debug in trigger menu when implemented

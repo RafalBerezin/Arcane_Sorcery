@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:utils/mana/max_decrease
+#> Called by arcane_sorcery:utils/mana/max_decrease
 # Prevents negative player's max mana
 execute unless score @s ASMaxMana matches 0.. run scoreboard players set @s ASMaxMana 0
 # Prevent player's mana from overflowing max mana

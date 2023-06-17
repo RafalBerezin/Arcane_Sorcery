@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:item/scepter/infernal/main
+#> Called by arcane_sorcery:item/scepter/infernal/main
 # Item info handler
 
 # Select current spell's info

@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:cooldown/spell/explosion
+#> Called by arcane_sorcery:cooldown/spell/explosion
 # Flaming Burst cooldown handler
 
 scoreboard players remove @s ASExplosionCD1 1

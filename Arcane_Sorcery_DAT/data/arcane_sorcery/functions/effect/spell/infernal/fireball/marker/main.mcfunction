@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:effect/spell/infernal/fireball/player/main
+#> Called by arcane_sorcery:effect/spell/infernal/fireball/player/main
 # Fireball spell marker effect handler
 
 # Select charge handler

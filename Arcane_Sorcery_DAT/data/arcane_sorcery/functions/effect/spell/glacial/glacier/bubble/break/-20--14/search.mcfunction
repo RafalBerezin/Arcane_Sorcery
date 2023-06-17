@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:effect/spell/glacial/glacier/bubble/break/main
+#> Called by arcane_sorcery:effect/spell/glacial/glacier/bubble/break/main
 # Break ice bubble
 
 # Search for specific break time

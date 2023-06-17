@@ -1,4 +1,4 @@
-# Called manually
+#> Called manually
 # Reloads the mana system, resetting Mana, Max Mana and Mana Regen for all players, even those offline
 
 # TODO warning and confirmation

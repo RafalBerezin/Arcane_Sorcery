@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:effect/spell/infernal/fireball/player/main
+#> Called by arcane_sorcery:effect/spell/infernal/fireball/player/main
 # Display effect particles
 
 execute if entity @s[tag=AS.charge.fireball.0] run function arcane_sorcery:effect/spell/infernal/fireball/player/particle/0

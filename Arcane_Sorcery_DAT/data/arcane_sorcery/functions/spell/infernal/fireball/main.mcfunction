@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:item/scepter/infernal/spell_cast
+#> Called by arcane_sorcery:item/scepter/infernal/spell_cast
 # Fireball spell handler
 
 # Tag the caster to activate the the spell if:

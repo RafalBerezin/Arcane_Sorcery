@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:item/scepter/vampiric/use
+#> Called by arcane_sorcery:item/scepter/vampiric/use
 # Cast selected spell if all conditions are met
 
 # Life Drain

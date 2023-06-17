@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:core/main20t
+#> Called by arcane_sorcery:core/main20t
 # Handles player interactions with the datapack
 
 # Regenerate mana

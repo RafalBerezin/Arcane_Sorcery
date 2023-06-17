@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:cooldown/spell/infernal
+#> Called by arcane_sorcery:cooldown/spell/infernal
 # Fireball cooldown handler
 
 scoreboard players remove @s ASInfernalCD1 1

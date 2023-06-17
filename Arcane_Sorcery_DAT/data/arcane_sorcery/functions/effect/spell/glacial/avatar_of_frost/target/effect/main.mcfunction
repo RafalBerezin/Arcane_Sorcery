@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:effect/spell/glacial/avatar_of_frost/target/main
+#> Called by arcane_sorcery:effect/spell/glacial/avatar_of_frost/target/main
 # Avatar of Frost target effect
 
 # TODO add animation

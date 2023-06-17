@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:effect/spell/glacial/glacier/ceiling/place/12-20/search
+#> Called by arcane_sorcery:effect/spell/glacial/glacier/ceiling/place/12-20/search
 # Place ice ceiling
 
 fill ~ ~ ~ ~ ~ ~ minecraft:packed_ice replace #arcane_sorcery:universal_ignore

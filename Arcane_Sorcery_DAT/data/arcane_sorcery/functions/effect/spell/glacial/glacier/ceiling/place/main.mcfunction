@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:effect/spell/glacial/glacier/ceiling/main
+#> Called by arcane_sorcery:effect/spell/glacial/glacier/ceiling/main
 # Place ice ceiling
 
 # Get wall place time

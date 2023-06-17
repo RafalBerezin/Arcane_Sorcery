@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:cooldown/spell/infernal
+#> Called by arcane_sorcery:cooldown/spell/infernal
 # Will o' the Wisp cooldown handler
 
 scoreboard players remove @s ASInfernalCD4 1

@@ -1,4 +1,4 @@
-# Called by arcane_sorcety:effect/spell/infernal/fireball/player/charge/charge_up
+#> Called by arcane_sorcety:effect/spell/infernal/fireball/player/charge/charge_up
 # Set charge to 2
 
 # Remove previous charge tag

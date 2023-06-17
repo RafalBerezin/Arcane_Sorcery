@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:spell/glacial/ray_of_frost/raycast
+#> Called by arcane_sorcery:spell/glacial/ray_of_frost/raycast
 # Apply effects to hit entities
 
 # Mark as hit to prevent multiple hits to the same target

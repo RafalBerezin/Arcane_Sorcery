@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:cooldown/spell/shining
+#> Called by arcane_sorcery:cooldown/spell/shining
 # Rays of Enlightenment cooldown handler
 
 scoreboard players remove @s ASShiningCD5 1

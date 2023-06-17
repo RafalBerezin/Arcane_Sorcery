@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:cooldown/spell/glacial
+#> Called by arcane_sorcery:cooldown/spell/glacial
 # Explosion of Cold cooldown handler
 
 scoreboard players remove @s ASGlacialCD2 1

@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:spell/glacial/avatar_of_frost/mode/change
+#> Called by arcane_sorcery:spell/glacial/avatar_of_frost/mode/change
 # Changes to the previous mode
 
 # Decrease mode flag

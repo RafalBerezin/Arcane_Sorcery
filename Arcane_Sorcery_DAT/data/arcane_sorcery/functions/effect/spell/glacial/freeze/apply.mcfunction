@@ -1,4 +1,4 @@
-# Called to apply freeze effect
+#> Called to apply freeze effect
 
 # Add effect tags
 tag @s add AS.effect

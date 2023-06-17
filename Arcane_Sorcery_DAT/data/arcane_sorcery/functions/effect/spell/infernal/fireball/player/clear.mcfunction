@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:effect/spell/infernal/fireball/player/shoot
+#> Called by arcane_sorcery:effect/spell/infernal/fireball/player/shoot
 # Clear Explosion of Cold effect
 
 # Remove effect tags

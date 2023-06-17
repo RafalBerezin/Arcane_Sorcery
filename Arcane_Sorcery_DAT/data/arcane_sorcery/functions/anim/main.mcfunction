@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:core/main
+#> Called by arcane_sorcery:core/main
 # Search for specific animation's handler
 
 execute if entity @s[tag=AS.anim.spell] run function arcane_sorcery:anim/spell/main

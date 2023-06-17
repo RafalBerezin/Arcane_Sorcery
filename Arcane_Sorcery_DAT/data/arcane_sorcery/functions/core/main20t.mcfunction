@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:core/init
+#> Called by arcane_sorcery:core/init
 # [ ----- ADDITIONAL LOOP (1/S) ----- ]
 
 # Handle player interactions

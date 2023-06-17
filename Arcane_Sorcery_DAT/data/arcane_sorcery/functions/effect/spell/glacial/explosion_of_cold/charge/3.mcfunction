@@ -1,4 +1,4 @@
-# Called by arcane_sorcety:effect/spell/glacial/explosion_of_cold/charge/charge_up
+#> Called by arcane_sorcety:effect/spell/glacial/explosion_of_cold/charge/charge_up
 # Set charge to 3
 
 # Remove previous charge tag

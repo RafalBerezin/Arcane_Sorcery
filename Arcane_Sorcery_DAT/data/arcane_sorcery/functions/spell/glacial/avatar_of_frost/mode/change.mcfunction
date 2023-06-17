@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:spell/glacial/avatar_of_frost/main
+#> Called by arcane_sorcery:spell/glacial/avatar_of_frost/main
 # Changes the mode of Avatar of Frost spell
 
 # Add effect tags when the spell is activated

@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:spell/glacial/glacier/[wall,ceiling,bubble]/setup
+#> Called by arcane_sorcery:spell/glacial/glacier/[wall,ceiling,bubble]/setup
 # Universal setup for Glacier marker
 
 # Add effect tags and scores

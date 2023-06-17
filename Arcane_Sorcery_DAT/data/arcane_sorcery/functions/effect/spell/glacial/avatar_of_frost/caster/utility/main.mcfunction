@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:effect/spell/glacial/avatar_of_frost/caster/main
+#> Called by arcane_sorcery:effect/spell/glacial/avatar_of_frost/caster/main
 # Avatar of Frost utility mode effect handler
 
 # TODO add animation

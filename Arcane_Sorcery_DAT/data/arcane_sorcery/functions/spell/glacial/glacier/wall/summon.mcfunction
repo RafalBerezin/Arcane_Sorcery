@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:spell/glacial/glacier/wall/raycast
+#> Called by arcane_sorcery:spell/glacial/glacier/wall/raycast
 # Summon Glacier wall marker
 
 # Stop raycast

@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:effect/spell/glacial/avatar_of_frost/caster/attack/main
+#> Called by arcane_sorcery:effect/spell/glacial/avatar_of_frost/caster/attack/main
 # Apply spell effect to hit entities
 
 # Setup damage properties

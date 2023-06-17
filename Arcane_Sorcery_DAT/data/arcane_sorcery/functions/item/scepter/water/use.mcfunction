@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:item/scepter/water/main
+#> Called by arcane_sorcery:item/scepter/water/main
 # Handle item use
 
 # Change selected spell if sneaking

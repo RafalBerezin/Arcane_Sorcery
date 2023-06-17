@@ -1,4 +1,4 @@
-# Called to store the rotation axis the caller's looking along
+#> Called to store the rotation axis the caller's looking along
 # O for X, 1 for Z
 
 # Set to Z by default (since X requires less checks)

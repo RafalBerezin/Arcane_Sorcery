@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:effect/spell/glacial/avatar_of_frost/caster/utility/main
+#> Called by arcane_sorcery:effect/spell/glacial/avatar_of_frost/caster/utility/main
 # Freezes liquids below the caller entity
 
 # Freeze water

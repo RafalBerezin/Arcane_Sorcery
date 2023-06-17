@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:cooldown/spell/main
+#> Called by arcane_sorcery:cooldown/spell/main
 # Search for the specific cooldown's handler
 
 execute if entity @s[tag=AS.cooldown.spell.explosion.flaming_burst] run function arcane_sorcery:cooldown/spell/explosion/flaming_burst/main

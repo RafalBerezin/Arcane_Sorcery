@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:item/scepter/wind/main
+#> Called by arcane_sorcery:item/scepter/wind/main
 # Item info handler
 
 # Select current spell's info

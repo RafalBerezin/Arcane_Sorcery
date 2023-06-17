@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:cooldown/spell/water
+#> Called by arcane_sorcery:cooldown/spell/water
 # Curse of the Sea cooldown handler
 
 scoreboard players remove @s ASWaterCD4 1

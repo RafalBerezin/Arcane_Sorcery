@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:item/scepter/infernal/info/main
+#> Called by arcane_sorcery:item/scepter/infernal/info/main
 # Display item information
 
 # Get the higher cooldown

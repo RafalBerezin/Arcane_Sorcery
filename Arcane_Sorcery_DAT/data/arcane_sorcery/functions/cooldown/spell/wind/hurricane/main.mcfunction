@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:cooldown/spell/wind
+#> Called by arcane_sorcery:cooldown/spell/wind
 # Hurricane cooldown handler
 
 scoreboard players remove @s ASWindCD5 1

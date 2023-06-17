@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:spell/glacial/glacier/main
+#> Called by arcane_sorcery:spell/glacial/glacier/main
 # Cast spell with mode 3: bubble
 
 # Summon Glacier bubble marker

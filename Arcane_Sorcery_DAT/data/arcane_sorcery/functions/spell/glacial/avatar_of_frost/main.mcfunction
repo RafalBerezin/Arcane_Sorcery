@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:item/scepter/glacial/spell_cast
+#> Called by arcane_sorcery:item/scepter/glacial/spell_cast
 # Avatar of Frost spell handler
 
 # Deactivate the spell if looking straight down

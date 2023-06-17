@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:cooldown/spell/infernal
+#> Called by arcane_sorcery:cooldown/spell/infernal
 # Dragon's Breath cooldown handler
 
 scoreboard players remove @s ASInfernalCD5 1

@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:item/scepter/venomous/main
+#> Called by arcane_sorcery:item/scepter/venomous/main
 # Item info handler
 
 # Select current spell's info

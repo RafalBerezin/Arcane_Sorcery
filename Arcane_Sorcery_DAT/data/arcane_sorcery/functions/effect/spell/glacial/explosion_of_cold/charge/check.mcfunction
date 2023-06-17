@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:effect/spell/glacial/explosion_of_cold/main
+#> Called by arcane_sorcery:effect/spell/glacial/explosion_of_cold/main
 # Check if the spell should charge
 
 # Check timer for whole seconds

@@ -1,4 +1,4 @@
-# Called by damage target
+#> Called by damage target
 # Handles dealing damage to entities
 
 execute unless score #as.temp.damage ASCalc matches 1.. run return 0

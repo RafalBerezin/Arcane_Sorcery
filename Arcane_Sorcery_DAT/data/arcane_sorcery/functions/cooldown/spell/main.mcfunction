@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:cooldown/main
+#> Called by arcane_sorcery:cooldown/main
 # Search for the specific cooldown's handler
 
 execute if entity @s[tag=AS.cooldown.spell.glacial] run function arcane_sorcery:cooldown/spell/glacial/main

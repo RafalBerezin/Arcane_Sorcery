@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:spell/glacial/glacier/main
+#> Called by arcane_sorcery:spell/glacial/glacier/main
 # Return in which mode to cast the spell based on player rotation
 
 # Wall

@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:effect/spell/glacial/freeze/main
+#> Called by arcane_sorcery:effect/spell/glacial/freeze/main
 # Freeze effect entity loop
 
 execute positioned ~-0.5 ~ ~-0.5 unless entity @e[type=minecraft:armor_stand,tag=AS.effect.spell.glacial.freeze,dx=0,dy=-2,dz=0] positioned ~0.5 ~ ~0.5 run function arcane_sorcery:effect/spell/glacial/freeze/marker/summon

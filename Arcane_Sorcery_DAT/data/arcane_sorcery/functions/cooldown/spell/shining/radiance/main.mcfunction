@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:cooldown/spell/shining
+#> Called by arcane_sorcery:cooldown/spell/shining
 # Radiance cooldown handler
 
 scoreboard players remove @s ASShiningCD2 1

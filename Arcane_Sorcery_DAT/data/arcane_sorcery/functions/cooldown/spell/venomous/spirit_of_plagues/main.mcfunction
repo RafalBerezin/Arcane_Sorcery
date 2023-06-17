@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:cooldown/spell/venomous
+#> Called by arcane_sorcery:cooldown/spell/venomous
 # Spirit of Plagues cooldown handler    
 
 scoreboard players remove @s ASVenomousCD5 1

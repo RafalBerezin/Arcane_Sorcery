@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:effect/spell/glacial/glacier/bubble/place/6-12/search
+#> Called by arcane_sorcery:effect/spell/glacial/glacier/bubble/place/6-12/search
 # Place ice bubble
 
 function arcane_sorcery:effect/spell/glacial/glacier/bubble/place/ring

@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:item/scepter/glacial/main
+#> Called by arcane_sorcery:item/scepter/glacial/main
 # Handle item use
 
 # Change selected spell if sneaking

@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:cooldown/spell/lightning
+#> Called by arcane_sorcery:cooldown/spell/lightning
 # Flash cooldown handler
 
 scoreboard players remove @s ASLightningCD2 1

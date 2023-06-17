@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:cooldown/spell/infernal
+#> Called by arcane_sorcery:cooldown/spell/infernal
 # Burning Shield cooldown handler
 
 scoreboard players remove @s ASInfernalCD3 1

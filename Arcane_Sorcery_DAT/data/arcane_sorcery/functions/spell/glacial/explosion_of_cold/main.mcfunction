@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:item/scepter/glacial/spell_cast
+#> Called by arcane_sorcery:item/scepter/glacial/spell_cast
 # Explosion of Cold spell handler
 
 # Tag the caster to activate the the spell if:

@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:item/scepter/explosion/use
+#> Called by arcane_sorcery:item/scepter/explosion/use
 # Cast selected spell if all conditions are met
 
 # Flaming Burst

@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:spell/glacial/avatar_of_frost/mode/change
+#> Called by arcane_sorcery:spell/glacial/avatar_of_frost/mode/change
 # Check if the caster has enought mana
 
 # Play change sound

@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:item/main
+#> Called by arcane_sorcery:item/main
 # Search for the specific item's handler
 
 # Select item handlers

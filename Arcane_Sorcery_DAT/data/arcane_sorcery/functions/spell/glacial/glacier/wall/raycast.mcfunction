@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:spell/glacial/glacier/wall
+#> Called by arcane_sorcery:spell/glacial/glacier/wall
 # Spell raycast loop (wall mode only)
 
 # Decrease raycast iteration number

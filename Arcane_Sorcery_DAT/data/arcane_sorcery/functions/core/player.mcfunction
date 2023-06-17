@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:core/main
+#> Called by arcane_sorcery:core/main
 # Handles player interactions with datapack
 
 # TODO OnDeath clear effects

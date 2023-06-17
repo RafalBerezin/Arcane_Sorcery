@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:item/scepter/glacial/spell_cast
+#> Called by arcane_sorcery:item/scepter/glacial/spell_cast
 # Ray of Frost spell handler
 
 # Add cooldown scores and tags

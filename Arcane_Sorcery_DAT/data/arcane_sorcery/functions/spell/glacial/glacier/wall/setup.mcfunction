@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:spell/glacial/glacier/wall/summon
+#> Called by arcane_sorcery:spell/glacial/glacier/wall/summon
 # Setup Glacier wall marker
 
 # Add effect tags and scores

@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:item/scepter/water/use
+#> Called by arcane_sorcery:item/scepter/water/use
 # Cast selected spell if all conditions are met
 
 # Bubble

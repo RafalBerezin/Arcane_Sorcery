@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:spell/infernal/fireball/main
+#> Called by arcane_sorcery:spell/infernal/fireball/main
 # Activate the spell effect
 
 # Add effect tags

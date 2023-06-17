@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:item/scepter/venomous/use
+#> Called by arcane_sorcery:item/scepter/venomous/use
 # Cast selected spell if all conditions are met
 
 # Poisonous Shot

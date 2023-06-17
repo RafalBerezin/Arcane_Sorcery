@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:cooldown/spell/water
+#> Called by arcane_sorcery:cooldown/spell/water
 # Tsunami cooldown handler
 
 scoreboard players remove @s ASWaterCD3 1

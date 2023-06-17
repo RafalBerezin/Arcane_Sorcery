@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:spell/glacial/avatar_of_frost/[caster/clear,target/clear]
+#> Called by arcane_sorcery:spell/glacial/avatar_of_frost/[caster/clear,target/clear]
 # Clear the spell effect
 
 # Remove effect tags

@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:spell/glacial/glacier/wall/setup
+#> Called by arcane_sorcery:spell/glacial/glacier/wall/setup
 # Add wall axis tag
 
 # axis stored by arcane_sorcery:spell/glacial/glacier/wall/summon using arcane_sorcery:utils/rotation/score/store_axis

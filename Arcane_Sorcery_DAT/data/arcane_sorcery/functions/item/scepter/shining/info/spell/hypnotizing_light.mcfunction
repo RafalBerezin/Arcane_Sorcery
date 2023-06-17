@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:item/scepter/shining/info/main
+#> Called by arcane_sorcery:item/scepter/shining/info/main
 # Display item information
 
 # Get the higher cooldown

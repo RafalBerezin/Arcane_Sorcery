@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:item/scepter/wind/use
+#> Called by arcane_sorcery:item/scepter/wind/use
 # Cast selected spell if all conditions are met
 
 # Gust

@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:effect/spell/glacial/explosion_of_cold/explode/main
+#> Called by arcane_sorcery:effect/spell/glacial/explosion_of_cold/explode/main
 # Explode with charge 3
 
 # Add spell cooldown

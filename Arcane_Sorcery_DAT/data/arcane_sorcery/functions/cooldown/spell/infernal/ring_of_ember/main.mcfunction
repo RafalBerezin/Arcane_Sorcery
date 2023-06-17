@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:cooldown/spell/infernal
+#> Called by arcane_sorcery:cooldown/spell/infernal
 # Ring of Ember cooldown handler
 
 scoreboard players remove @s ASInfernalCD2 1

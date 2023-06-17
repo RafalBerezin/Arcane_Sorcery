@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:anim/spell/glacial/ray_of_frost/main
+#> Called by arcane_sorcery:anim/spell/glacial/ray_of_frost/main
 # Play the specific animation frames
 
 # Animation pattern

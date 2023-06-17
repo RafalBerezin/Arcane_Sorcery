@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:item/scepter/infernal/use
+#> Called by arcane_sorcery:item/scepter/infernal/use
 # Cast selected spell if all conditions are met
 
 # Fireball

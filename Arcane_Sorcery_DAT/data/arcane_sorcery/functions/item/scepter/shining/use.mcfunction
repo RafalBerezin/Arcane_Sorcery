@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:item/scepter/shining/main
+#> Called by arcane_sorcery:item/scepter/shining/main
 # Handle item use
 
 # Change selected spell if sneaking

@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:effect/spell/infernal/fireball/player/[main,deactivate]
+#> Called by arcane_sorcery:effect/spell/infernal/fireball/player/[main,deactivate]
 # Shoot using current charge
 
 # Call shoot function for current charge

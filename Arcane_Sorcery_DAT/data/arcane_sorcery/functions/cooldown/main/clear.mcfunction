@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:cooldown/main/main
+#> Called by arcane_sorcery:cooldown/main/main
 # Removes branch tag and calls lower level check
 
 tag @s remove AS.cooldown.main

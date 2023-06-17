@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:item/scepter/lightning/use
+#> Called by arcane_sorcery:item/scepter/lightning/use
 # Cast selected spell if all conditions are met
 
 # Dancing Lightnings

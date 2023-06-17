@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:cooldown/spell/venomous
+#> Called by arcane_sorcery:cooldown/spell/venomous
 # Toxic Bomb cooldown handler
 
 scoreboard players remove @s ASVenomousCD2 1

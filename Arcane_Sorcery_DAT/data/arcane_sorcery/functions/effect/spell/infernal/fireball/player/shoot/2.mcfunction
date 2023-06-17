@@ -1,4 +1,4 @@
-# Called by arcane_sorcery:effect/spell/infernal/fireball/player/shoot/main
+#> Called by arcane_sorcery:effect/spell/infernal/fireball/player/shoot/main
 # Shoot with charge 2
 
 # Store charge for creating fireball marker
