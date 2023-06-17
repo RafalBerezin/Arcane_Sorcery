@@ -25,6 +25,7 @@ scoreboard objectives add ASManaRegen dummy
 # Additional
 scoreboard objectives add ASCalc dummy
 scoreboard objectives add ASFlag dummy
+scoreboard objectives add ASLink dummy
 scoreboard objectives add ASMainCD dummy
 
 # --- SCEPTERS ---

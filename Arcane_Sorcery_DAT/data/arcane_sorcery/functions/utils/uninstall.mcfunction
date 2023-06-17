@@ -24,6 +24,7 @@ scoreboard objectives remove ASManaRegen
 # Additional
 scoreboard objectives remove ASCalc
 scoreboard objectives remove ASFlag
+scoreboard objectives remove ASLink
 scoreboard objectives remove ASMainCD
 
 # --- SCEPTERS ---
