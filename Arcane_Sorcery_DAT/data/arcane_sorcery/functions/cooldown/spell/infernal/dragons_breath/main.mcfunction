@@ -3,4 +3,4 @@
 
 scoreboard players remove @s ASInfernalCD5 1
 
-execute unless score @s ASInfernalCD5 matches 1.. run function arcane_sorcery:cooldown/spell/infernal/clear/check
+execute unless score @s ASInfernalCD5 matches 1.. run function arcane_sorcery:cooldown/spell/infernal/dragons_breath/clear

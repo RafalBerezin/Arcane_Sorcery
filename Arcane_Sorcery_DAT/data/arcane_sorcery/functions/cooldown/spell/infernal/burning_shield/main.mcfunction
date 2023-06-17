@@ -3,4 +3,4 @@
 
 scoreboard players remove @s ASInfernalCD3 1
 
-execute unless score @s ASInfernalCD3 matches 1.. run function arcane_sorcery:cooldown/spell/infernal/clear/check
+execute unless score @s ASInfernalCD3 matches 1.. run function arcane_sorcery:cooldown/spell/infernal/burning_shield/clear

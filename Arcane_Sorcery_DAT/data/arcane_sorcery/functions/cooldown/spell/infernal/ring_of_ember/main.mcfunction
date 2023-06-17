@@ -3,4 +3,4 @@
 
 scoreboard players remove @s ASInfernalCD2 1
 
-execute unless score @s ASInfernalCD2 matches 1.. run function arcane_sorcery:cooldown/spell/infernal/clear/check
+execute unless score @s ASInfernalCD2 matches 1.. run function arcane_sorcery:cooldown/spell/infernal/ring_of_ember/clear

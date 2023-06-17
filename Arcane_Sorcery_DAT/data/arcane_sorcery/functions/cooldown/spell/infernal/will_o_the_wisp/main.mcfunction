@@ -3,4 +3,4 @@
 
 scoreboard players remove @s ASInfernalCD4 1
 
-execute unless score @s ASInfernalCD4 matches 1.. run function arcane_sorcery:cooldown/spell/infernal/clear/check
+execute unless score @s ASInfernalCD4 matches 1.. run function arcane_sorcery:cooldown/spell/infernal/will_o_the_wisp/clear
