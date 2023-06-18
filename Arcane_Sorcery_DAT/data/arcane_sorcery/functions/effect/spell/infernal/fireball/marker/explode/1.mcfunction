@@ -5,7 +5,7 @@
 playsound minecraft:entity.generic.explode master @a ~ ~ ~ 0.3 0.7
 
 # Display explosion particles
-particle minecraft:flame ~ ~ ~ 0.02 0.02 0.02 0.2 45 force
+particle minecraft:flame ~ ~ ~ 0.02 0.02 0.02 0.25 65 force
 
 # Search for fireball caster
 function arcane_sorcery:utils/link/entity_to_player/find_owner
