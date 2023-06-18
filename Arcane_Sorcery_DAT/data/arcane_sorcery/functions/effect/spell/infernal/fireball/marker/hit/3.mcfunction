@@ -1,4 +1,4 @@
-#> Called by arcane_sorcery:effect/spell/infernal/fireball/marker/explode/3
+#> Called by arcane_sorcery:effect/spell/infernal/fireball/marker/explode/caster/3
 # Hit with charge 3
 
 # Setup damage properties

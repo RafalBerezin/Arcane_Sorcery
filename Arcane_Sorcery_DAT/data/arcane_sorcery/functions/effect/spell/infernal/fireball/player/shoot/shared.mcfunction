@@ -13,7 +13,8 @@ function arcane_sorcery:utils/mana/validation/validate_mana
 # Play fireball shoot sound
 execute at @s run playsound minecraft:item.firecharge.use master @a ~ ~ ~ 2 0.8   
 
-# TODO link fireball marker to player
+# Create entity link id
+function arcane_sorcery:utils/link/entity_to_player/create_id
 
 # Shoot
 execute anchored eyes positioned ^ ^ ^3.5 run function arcane_sorcery:effect/spell/infernal/fireball/marker/summon
