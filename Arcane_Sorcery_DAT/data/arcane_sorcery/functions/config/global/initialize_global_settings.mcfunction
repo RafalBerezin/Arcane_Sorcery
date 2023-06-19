@@ -200,6 +200,7 @@ execute unless score #as.global_settings.duration.glacial.avatar_of_frost.effect
 
 # Infernal Scepter
 execute unless score #as.global_settings.duration.infernal.fireball.effect.charge ASFlag = #as.global_settings.duration.infernal.fireball.effect.charge ASFlag run scoreboard players set #as.global_settings.duration.infernal.fireball.effect.charge ASFlag 20
+execute unless score #as.global_settings.duration.infernal.ring_of_ember.effect.charge ASFlag = #as.global_settings.duration.infernal.ring_of_ember.effect.charge ASFlag run scoreboard players set #as.global_settings.duration.infernal.ring_of_ember.effect.charge ASFlag 20
 
 
 
@@ -215,3 +216,4 @@ execute unless score #as.global_settings.damage.glacial.explosion_of_cold.charge
 execute unless score #as.global_settings.damage.infernal.fireball.charge.1 ASFlag = #as.global_settings.damage.infernal.fireball.charge.1 ASFlag run scoreboard players set #as.global_settings.damage.infernal.fireball.charge.1 ASFlag 8
 execute unless score #as.global_settings.damage.infernal.fireball.charge.2 ASFlag = #as.global_settings.damage.infernal.fireball.charge.2 ASFlag run scoreboard players set #as.global_settings.damage.infernal.fireball.charge.2 ASFlag 12
 execute unless score #as.global_settings.damage.infernal.fireball.charge.3 ASFlag = #as.global_settings.damage.infernal.fireball.charge.3 ASFlag run scoreboard players set #as.global_settings.damage.infernal.fireball.charge.3 ASFlag 16
+execute unless score #as.global_settings.damage.infernal.ring_of_ember ASFlag = #as.global_settings.damage.infernal.ring_of_ember ASFlag run scoreboard players set #as.global_settings.damage.infernal.ring_of_ember ASFlag 5
