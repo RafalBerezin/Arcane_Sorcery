@@ -1,5 +1,5 @@
 #> Called by arcane_sorcery:effect/spell/infernal/ring_of_ember/main
-# Ring of Ember effect entity handler
+# Ring of Ember effect charge
 
 # Play charged sound
 playsound minecraft:item.firecharge.use master @a ~ ~ ~ 0.2 1

@@ -53,6 +53,7 @@ scoreboard objectives remove ASInfernalCD5
 
 scoreboard objectives remove ASFireballT
 scoreboard objectives remove ASRingOfEmberT
+scoreboard objectives remove ASBurningShieldT
 
 # Lightning Wand
 scoreboard objectives remove ASLightningM
