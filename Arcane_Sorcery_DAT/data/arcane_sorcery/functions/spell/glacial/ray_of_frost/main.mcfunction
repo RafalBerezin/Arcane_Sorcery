@@ -14,9 +14,8 @@ scoreboard players operation @s ASMainCD = #as.global_settings.cooldown.main ASF
 # Remove mana
 scoreboard players operation @s ASMana -= #as.global_settings.cost.glacial.ray_of_frost.mana ASFlag
 
-# Add caster tags
-tag @s add AS.spell.caster
-tag @s add AS.damage.source
+# Perform damage setup
+function arcane_sorcery:utils/damage/setup/perform
 
 # Spell sound
 playsound minecraft:block.conduit.deactivate master @a ~ ~1 ~ 1
@@ -35,6 +34,5 @@ execute anchored eyes positioned ^ ^ ^1 run function arcane_sorcery:spell/glacia
 # Remove hit tag from targets
 tag @e remove AS.spell.hit
 
-# Remove caster tags
-tag @s remove AS.damage.source
-tag @s remove AS.spell.caster
+# Clear damage setup
+function arcane_sorcery:utils/damage/setup/clear

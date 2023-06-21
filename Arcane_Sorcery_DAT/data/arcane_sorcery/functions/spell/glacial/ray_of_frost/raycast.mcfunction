@@ -8,7 +8,7 @@ scoreboard players remove #as.loop ASCalc 1
 particle minecraft:dust 0.081 0.468 1 1 ~ ~ ~ 0 0 0 0 3 force
 
 # Detect hit entities
-execute positioned ~-0.25 ~-0.25 ~-0.25 as @e[type=!#arcane_sorcery:spell_ignore,dx=0,tag=!AS.spell.caster,tag=!AS.spell.hit] positioned ~-0.5 ~-0.5 ~-0.5 if entity @s[dx=0] at @s run function arcane_sorcery:spell/glacial/ray_of_frost/hit
+execute positioned ~-0.25 ~-0.25 ~-0.25 as @e[type=!#arcane_sorcery:spell_ignore,dx=0,tag=!AS.spell.caster,tag=!AS.spell.hit,sort=nearest] positioned ~-0.5 ~-0.5 ~-0.5 if entity @s[dx=0] at @s run function arcane_sorcery:spell/glacial/ray_of_frost/hit
 
 # TODO implement double slab check
 # Stop loop when the ray hits a solid block
