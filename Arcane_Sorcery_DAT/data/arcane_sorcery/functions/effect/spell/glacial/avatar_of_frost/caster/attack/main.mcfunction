@@ -6,13 +6,14 @@
 # Display effect particles
 particle minecraft:snowflake ~ ~1 ~ 2 1 2 0 5 force
 
-# Add caster tags 
-tag @s add AS.spell.caster
-tag @s add AS.damage.source
+# Perform damage setup
+function arcane_sorcery:utils/damage/setup/perform
 
 # Apply effect to hit entities
-execute as @e[type=!#arcane_sorcery:spell_ignore,tag=!AS.spell.caster,distance=..5] run function arcane_sorcery:effect/spell/glacial/avatar_of_frost/caster/attack/hit
+execute as @e[type=!#arcane_sorcery:spell_ignore,tag=!AS.spell.caster,distance=..5,sort=nearest] at @s run function arcane_sorcery:effect/spell/glacial/avatar_of_frost/caster/attack/hit
 
-# Remove caster tags
-tag @s remove AS.spell.caster
-tag @s remove AS.damage.source
+# Disable the spell if hit checks detected spell interruption
+execute if score #as.spell.stop ASFlag matches 1 run function arcane_sorcery:effect/spell/glacial/avatar_of_frost/caster/clear
+
+# Clear damage setup
+function arcane_sorcery:utils/damage/setup/clear

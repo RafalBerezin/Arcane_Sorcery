@@ -1,6 +1,15 @@
 #> Called by arcane_sorcery:effect/spell/glacial/avatar_of_frost/caster/attack/main
 # Apply spell effect to hit entities
 
+# Stop hit execution from the same selector if previous hit checks set spell stop flag
+execute if score #as.spell.stop ASFlag matches 1 run return 1
+
+# Perform hit checks
+function arcane_sorcery:utils/hit/perform_checks
+
+# Stop hit execution if current checks set spell stop flag
+execute if score #as.spell.stop ASFlag matches 1 run return 1
+
 # Setup damage properties
 scoreboard players set #as.temp.damage.type ASFlag 1
 # scoreboard players operation #as.temp.damage ASCalc = #as.global_settings.damage.glacial.avatar_of_frost ASFlag
