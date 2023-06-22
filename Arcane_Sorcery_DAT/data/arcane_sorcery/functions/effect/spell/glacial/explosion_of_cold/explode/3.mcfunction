@@ -17,13 +17,11 @@ particle minecraft:spit ~ ~1 ~ 0.2 0.2 0.2 0.7 350 force
 # Freeze water
 function arcane_sorcery:effect/spell/glacial/explosion_of_cold/explode/freeze
 
-# Add caster tags
-tag @s add AS.damage.source
-tag @s add AS.spell.caster
+# Perform damage setup
+function arcane_sorcery:utils/damage/setup/perform
 
 # Explode
-execute as @e[type=!#arcane_sorcery:spell_ignore,tag=!AS.spell.caster,distance=..9] at @s run function arcane_sorcery:effect/spell/glacial/explosion_of_cold/hit/3
+execute as @e[type=!#arcane_sorcery:spell_ignore,tag=!AS.spell.caster,distance=..9,sort=nearest] at @s run function arcane_sorcery:effect/spell/glacial/explosion_of_cold/hit/3
 
-# Remove caster tags
-tag @s remove AS.damage.source
-tag @s remove AS.spell.caster
+# Clear damage setup
+function arcane_sorcery:utils/damage/setup/clear

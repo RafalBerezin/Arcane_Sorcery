@@ -17,13 +17,11 @@ playsound minecraft:entity.generic.explode master @a ~ ~ ~ 0.65 0
 # Display explosion particles
 particle minecraft:spit ~ ~1 ~ 0.1 0.1 0.1 0.5 160 force
 
-# Add caster tags
-tag @s add AS.damage.source
-tag @s add AS.spell.caster
+# Perform damage setup
+function arcane_sorcery:utils/damage/setup/perform
 
 # Explode
-execute as @e[type=!#arcane_sorcery:spell_ignore,tag=!AS.spell.caster,distance=..6] at @s run function arcane_sorcery:effect/spell/glacial/explosion_of_cold/hit/2
+execute as @e[type=!#arcane_sorcery:spell_ignore,tag=!AS.spell.caster,distance=..6,sort=nearest] at @s run function arcane_sorcery:effect/spell/glacial/explosion_of_cold/hit/2
 
-# Remove caster tags
-tag @s remove AS.damage.source
-tag @s remove AS.spell.caster
+# Clear damage setup
+function arcane_sorcery:utils/damage/setup/clear

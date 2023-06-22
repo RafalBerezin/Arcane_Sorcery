@@ -1,6 +1,15 @@
 #> Called by arcane_sorcery:effect/spell/glacial/explosion_of_cold/explode/3
 # Hit with charge 3
 
+# Stop hit execution from the same selector if previous hit checks set spell stop flag
+execute if score #as.spell.stop ASFlag matches 1 run return 1
+
+# Perform hit checks
+function arcane_sorcery:utils/hit/perform_checks
+
+# Stop hit execution if current checks set spell stop flag
+execute if score #as.spell.stop ASFlag matches 1 run return 1
+
 # Apply slow effect
 effect give @s minecraft:slowness 12 2 true
 
