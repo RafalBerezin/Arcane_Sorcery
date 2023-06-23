@@ -1,4 +1,7 @@
-#> Called by arcane_sorcery:[spell/infernal/ring_of_ember/main,effect/spell/infernal/ring_of_ember/player/main]
+#> Called by:
+# - arcane_sorcery:spell/infernal/ring_of_ember/main
+# - arcane_sorcery:effect/spell/infernal/ring_of_ember/player/main
+# - arcane_sorcery:effect/spell/infernal/ring_of_ember/player/force_deactivate
 # Clear Ring of Ember effect
 
 # Play clear sound
