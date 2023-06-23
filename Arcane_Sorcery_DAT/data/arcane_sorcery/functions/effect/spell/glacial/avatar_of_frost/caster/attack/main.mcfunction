@@ -13,7 +13,7 @@ function arcane_sorcery:utils/damage/setup/perform
 execute as @e[type=!#arcane_sorcery:spell_ignore,tag=!AS.spell.caster,distance=..5,sort=nearest] at @s run function arcane_sorcery:effect/spell/glacial/avatar_of_frost/caster/attack/hit
 
 # Disable the spell if hit checks detected spell interruption
-execute if score #as.spell.stop ASFlag matches 1 run function arcane_sorcery:effect/spell/glacial/avatar_of_frost/caster/clear
+execute if score #as.spell.stop ASFlag matches 1 run function arcane_sorcery:effect/spell/glacial/avatar_of_frost/caster/force_deactivate
 
 # Clear damage setup
 function arcane_sorcery:utils/damage/setup/clear
