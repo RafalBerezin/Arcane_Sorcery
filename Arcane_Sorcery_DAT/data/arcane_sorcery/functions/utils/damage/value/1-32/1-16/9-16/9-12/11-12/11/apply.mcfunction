@@ -3,3 +3,4 @@
 
 execute if score #as.temp.damage.type ASFlag matches 1 run function arcane_sorcery:utils/damage/value/1-32/1-16/9-16/9-12/11-12/11/magic/apply
 execute if score #as.temp.damage.type ASFlag matches 2 run function arcane_sorcery:utils/damage/value/1-32/1-16/9-16/9-12/11-12/11/explosion/apply
+execute if score #as.temp.damage.type ASFlag matches 3 run function arcane_sorcery:utils/damage/value/1-32/1-16/9-16/9-12/11-12/11/fire/apply
