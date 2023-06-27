@@ -1,4 +1,4 @@
 #> Called by this function branch's cooldown handlers
 # Checks if the branch tag should be removed
 
-execute unless score @s ASLightningCD1 matches 1.. unless score @s ASLightningCD2 matches 1.. unless score @s ASLightningCD3 matches 1.. unless score @s ASLightningCD4 matches 1.. unless score @s ASLightningCD5 matches 1.. run function arcane_sorcery:cooldown/spell/lightning/clear/clear
+execute if entity @s[tag=!AS.cooldown.spell.lightning.dancing_lightnings,tag=!AS.cooldown.spell.lightning.flash,tag=!AS.cooldown.spell.lightning.lightning_rush,tag=!AS.cooldown.spell.lightning.shimmering_trap,tag=!AS.cooldown.spell.lightning.electric_prison] run function arcane_sorcery:cooldown/spell/lightning/clear/clear

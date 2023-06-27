@@ -3,4 +3,4 @@
 
 scoreboard players remove @s ASLightningCD5 1
 
-execute unless score @s ASLightningCD5 matches 1.. run function arcane_sorcery:cooldown/spell/lightning/clear/check
+execute unless score @s ASLightningCD5 matches 1.. run function arcane_sorcery:cooldown/spell/lightning/electric_prison/clear
