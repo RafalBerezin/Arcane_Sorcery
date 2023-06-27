@@ -15,15 +15,8 @@ playsound minecraft:entity.generic.explode master @a ~ ~ ~ 2 0.5
 particle minecraft:flame ~ ~1 ~ 0.125 0.125 0.125 0.5 250 force
 particle minecraft:soul_fire_flame ~ ~1 ~ 0.125 0.125 0.125 0.5 250 force
 
-# Add cooldowns
-scoreboard players operation @s ASInfernalCD3 = #as.global_settings.cooldown.infernal.burning_shield ASFlag
-scoreboard players operation @s ASMainCD = #as.global_settings.cooldown.main ASFlag
-
-# Add cooldown tags
-tag @s add AS.cooldown
-tag @s add AS.cooldown.spell
-tag @s add AS.cooldown.spell.infernal
-tag @s add AS.cooldown.spell.infernal.burning_shield
+# Apply cooldown
+function arcane_sorcery:cooldown/spell/infernal/burning_shield/apply
 
 # Give effects
 effect give @s minecraft:absorption 5 1 true

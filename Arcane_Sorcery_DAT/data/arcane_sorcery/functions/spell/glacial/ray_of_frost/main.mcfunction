@@ -1,15 +1,8 @@
 #> Called by arcane_sorcery:item/scepter/glacial/spell_cast
 # Ray of Frost spell handler
 
-# Add cooldown scores and tags
-tag @s add AS.cooldown
-tag @s add AS.cooldown.main
-tag @s add AS.cooldown.spell
-tag @s add AS.cooldown.spell.glacial
-tag @s add AS.cooldown.spell.glacial.ray_of_frost
-
-scoreboard players operation @s ASGlacialCD1 = #as.global_settings.cooldown.glacial.ray_of_frost ASFlag
-scoreboard players operation @s ASMainCD = #as.global_settings.cooldown.main ASFlag
+# Apply cooldown
+function arcane_sorcery:cooldown/spell/glacial/ray_of_frost/apply
 
 # Remove mana
 scoreboard players operation @s ASMana -= #as.global_settings.cost.glacial.ray_of_frost.mana ASFlag

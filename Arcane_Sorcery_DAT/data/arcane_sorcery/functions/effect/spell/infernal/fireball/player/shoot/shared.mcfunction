@@ -1,8 +1,8 @@
 #> Called by arcane_sorcery:effect/spell/infernal/fireball/player/shoot/[1,2,3]
 # Shared commands for shooting fireball
 
-# Add cooldown
-function arcane_sorcery:effect/spell/infernal/fireball/player/add_cooldown
+# Apply cooldown
+function arcane_sorcery:cooldown/spell/infernal/fireball/apply
 
 # Store caster rotation for creating fireball marker
 function arcane_sorcery:utils/rotation/storage/store

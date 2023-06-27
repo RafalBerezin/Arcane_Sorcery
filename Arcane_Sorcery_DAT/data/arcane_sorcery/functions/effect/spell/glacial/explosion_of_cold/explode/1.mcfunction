@@ -1,8 +1,8 @@
 #> Called by arcane_sorcery:effect/spell/glacial/explosion_of_cold/explode/main
 # Explode with charge 1
 
-# Add spell cooldown
-function arcane_sorcery:effect/spell/glacial/explosion_of_cold/add_cooldown
+# Apply cooldown
+function arcane_sorcery:cooldown/spell/glacial/explosion_of_cold/apply
 
 # Return mana
 scoreboard players operation @s ASMana += #as.global_settings.cost.glacial.explosion_of_cold.mana.return.charge.1 ASFlag

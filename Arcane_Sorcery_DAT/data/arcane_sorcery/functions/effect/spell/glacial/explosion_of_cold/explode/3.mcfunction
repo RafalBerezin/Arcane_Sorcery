@@ -1,8 +1,8 @@
 #> Called by arcane_sorcery:effect/spell/glacial/explosion_of_cold/explode/main
 # Explode with charge 3
 
-# Add spell cooldown
-function arcane_sorcery:effect/spell/glacial/explosion_of_cold/add_cooldown
+# Apply cooldown
+function arcane_sorcery:cooldown/spell/glacial/explosion_of_cold/apply
 
 # Check for mana overflow
 function arcane_sorcery:utils/mana/validation/validate_mana
