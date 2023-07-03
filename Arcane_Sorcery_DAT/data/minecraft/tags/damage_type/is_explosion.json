@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "arcane_sorcery:explosion",
+        "arcane_sorcery:explosion_no_cd"
+    ]
+}
