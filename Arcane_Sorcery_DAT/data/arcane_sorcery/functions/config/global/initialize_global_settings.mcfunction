@@ -132,7 +132,7 @@ execute unless score #as.global_settings.cooldown.infernal.dragons_breath ASFlag
 
 # Lightning Wand
 execute unless score #as.global_settings.cooldown.lightning.dancing_lightnings ASFlag = #as.global_settings.cooldown.lightning.dancing_lightnings ASFlag run scoreboard players set #as.global_settings.cooldown.lightning.dancing_lightnings ASFlag 20
-execute unless score #as.global_settings.cooldown.lightning.flash ASFlag = #as.global_settings.cooldown.lightning.flash ASFlag run scoreboard players set #as.global_settings.cooldown.lightning.flash ASFlag 15
+execute unless score #as.global_settings.cooldown.lightning.flash ASFlag = #as.global_settings.cooldown.lightning.flash ASFlag run scoreboard players set #as.global_settings.cooldown.lightning.flash ASFlag 5
 execute unless score #as.global_settings.cooldown.lightning.lightning_rush ASFlag = #as.global_settings.cooldown.lightning.lightning_rush ASFlag run scoreboard players set #as.global_settings.cooldown.lightning.lightning_rush ASFlag 20
 execute unless score #as.global_settings.cooldown.lightning.shimmering_trap ASFlag = #as.global_settings.cooldown.lightning.shimmering_trap ASFlag run scoreboard players set #as.global_settings.cooldown.lightning.shimmering_trap ASFlag 40
 execute unless score #as.global_settings.cooldown.lightning.electric_prison ASFlag = #as.global_settings.cooldown.lightning.electric_prison ASFlag run scoreboard players set #as.global_settings.cooldown.lightning.electric_prison ASFlag 45
@@ -186,6 +186,9 @@ execute unless score #as.global_settings.range.glacial.blizzard ASFlag = #as.glo
 
 # Infernal Scepter
 execute unless score #as.global_settings.range.infernal.dragons_breath ASFlag = #as.global_settings.range.infernal.dragons_breath ASFlag run scoreboard players set #as.global_settings.range.infernal.dragons_breath ASFlag 8
+
+# Lightning Wand
+execute unless score #as.global_settings.range.lightning.flash ASFlag = #as.global_settings.range.lightning.flash ASFlag run scoreboard players set #as.global_settings.range.lightning.flash ASFlag 30
 
 
 
