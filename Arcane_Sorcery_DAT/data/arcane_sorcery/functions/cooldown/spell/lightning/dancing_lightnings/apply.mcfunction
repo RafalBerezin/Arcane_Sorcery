@@ -1,8 +1,8 @@
 #> Called to apply Dancing Lighnings cooldown
 
-scoreboard players operation @s ASLightningCD1 = #as.global_settings.cooldown.lightning.dancing_lightnings ASFlag
+scoreboard players operation @s ASLightningCD1 = #as.global_settings.cooldown.lightning.dancing_lightning ASFlag
 
-tag @s add AS.cooldown.spell.lightning.dancing_lightnings
+tag @s add AS.cooldown.spell.lightning.dancing_lightning
 
 function arcane_sorcery:cooldown/main/apply
 

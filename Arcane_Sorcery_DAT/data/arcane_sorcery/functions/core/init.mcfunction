@@ -65,6 +65,10 @@ scoreboard objectives add ASLightningCD3 dummy
 scoreboard objectives add ASLightningCD4 dummy
 scoreboard objectives add ASLightningCD5 dummy
 
+scoreboard objectives add ASDancingLT dummy
+scoreboard objectives add ASDancingLLink dummy
+scoreboard objectives add ASDancingLJumps dummy
+
 # Venomous Staff
 scoreboard objectives add ASVenomousM dummy
 scoreboard objectives add ASVenomousCD1 dummy

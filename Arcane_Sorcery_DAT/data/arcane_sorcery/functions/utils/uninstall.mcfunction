@@ -64,6 +64,10 @@ scoreboard objectives remove ASLightningCD3
 scoreboard objectives remove ASLightningCD4
 scoreboard objectives remove ASLightningCD5
 
+scoreboard objectives remove ASDancingLT
+scoreboard objectives remove ASDancingLLink
+scoreboard objectives remove ASDancingLJumps
+
 # Venomous Staff
 scoreboard objectives remove ASVenomousM
 scoreboard objectives remove ASVenomousCD1

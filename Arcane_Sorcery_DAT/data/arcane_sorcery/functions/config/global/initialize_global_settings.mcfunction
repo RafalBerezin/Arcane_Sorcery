@@ -49,7 +49,7 @@ execute unless score #as.global_settings.cost.infernal.will_o_the_wisp.mana ASFl
 execute unless score #as.global_settings.cost.infernal.dragons_breath.mana ASFlag = #as.global_settings.cost.infernal.dragons_breath.mana ASFlag run scoreboard players set #as.global_settings.cost.infernal.dragons_breath.mana ASFlag 20
 
 # Lightning Wand
-execute unless score #as.global_settings.cost.lightning.dancing_lightnings.mana ASFlag = #as.global_settings.cost.lightning.dancing_lightnings.mana ASFlag run scoreboard players set #as.global_settings.cost.lightning.dancing_lightnings.mana ASFlag 20
+execute unless score #as.global_settings.cost.lightning.dancing_lightning.mana ASFlag = #as.global_settings.cost.lightning.dancing_lightning.mana ASFlag run scoreboard players set #as.global_settings.cost.lightning.dancing_lightning.mana ASFlag 20
 execute unless score #as.global_settings.cost.lightning.flash.mana ASFlag = #as.global_settings.cost.lightning.flash.mana ASFlag run scoreboard players set #as.global_settings.cost.lightning.flash.mana ASFlag 15
 execute unless score #as.global_settings.cost.lightning.lightning_rush.mana ASFlag = #as.global_settings.cost.lightning.lightning_rush.mana ASFlag run scoreboard players set #as.global_settings.cost.lightning.lightning_rush.mana ASFlag 10
 execute unless score #as.global_settings.cost.lightning.shimmering_trap.mana ASFlag = #as.global_settings.cost.lightning.shimmering_trap.mana ASFlag run scoreboard players set #as.global_settings.cost.lightning.shimmering_trap.mana ASFlag 40
@@ -131,7 +131,7 @@ execute unless score #as.global_settings.cooldown.infernal.will_o_the_wisp ASFla
 execute unless score #as.global_settings.cooldown.infernal.dragons_breath ASFlag = #as.global_settings.cooldown.infernal.dragons_breath ASFlag run scoreboard players set #as.global_settings.cooldown.infernal.dragons_breath ASFlag 30
 
 # Lightning Wand
-execute unless score #as.global_settings.cooldown.lightning.dancing_lightnings ASFlag = #as.global_settings.cooldown.lightning.dancing_lightnings ASFlag run scoreboard players set #as.global_settings.cooldown.lightning.dancing_lightnings ASFlag 20
+execute unless score #as.global_settings.cooldown.lightning.dancing_lightning ASFlag = #as.global_settings.cooldown.lightning.dancing_lightning ASFlag run scoreboard players set #as.global_settings.cooldown.lightning.dancing_lightning ASFlag 20
 execute unless score #as.global_settings.cooldown.lightning.flash ASFlag = #as.global_settings.cooldown.lightning.flash ASFlag run scoreboard players set #as.global_settings.cooldown.lightning.flash ASFlag 5
 execute unless score #as.global_settings.cooldown.lightning.lightning_rush ASFlag = #as.global_settings.cooldown.lightning.lightning_rush ASFlag run scoreboard players set #as.global_settings.cooldown.lightning.lightning_rush ASFlag 20
 execute unless score #as.global_settings.cooldown.lightning.shimmering_trap ASFlag = #as.global_settings.cooldown.lightning.shimmering_trap ASFlag run scoreboard players set #as.global_settings.cooldown.lightning.shimmering_trap ASFlag 40
@@ -188,6 +188,9 @@ execute unless score #as.global_settings.range.glacial.blizzard ASFlag = #as.glo
 execute unless score #as.global_settings.range.infernal.dragons_breath ASFlag = #as.global_settings.range.infernal.dragons_breath ASFlag run scoreboard players set #as.global_settings.range.infernal.dragons_breath ASFlag 8
 
 # Lightning Wand
+execute unless score #as.global_settings.range.lightning.dancing_lightning ASFlag = #as.global_settings.range.lightning.dancing_lightning ASFlag run scoreboard players set #as.global_settings.range.lightning.dancing_lightning ASFlag 30
+execute unless score #as.global_settings.range.lightning.dancing_lightning.jumps ASFlag = #as.global_settings.range.lightning.dancing_lightning.jumps ASFlag run scoreboard players set #as.global_settings.range.lightning.dancing_lightning.jumps ASFlag 20
+execute unless score #as.global_settings.range.lightning.dancing_lightning.chains ASFlag = #as.global_settings.range.lightning.dancing_lightning.chains ASFlag run scoreboard players set #as.global_settings.range.lightning.dancing_lightning.chains ASFlag 10
 execute unless score #as.global_settings.range.lightning.flash ASFlag = #as.global_settings.range.lightning.flash ASFlag run scoreboard players set #as.global_settings.range.lightning.flash ASFlag 30
 
 
@@ -210,6 +213,9 @@ execute unless score #as.global_settings.duration.infernal.ring_of_ember.effect.
 execute unless score #as.global_settings.duration.infernal.burning_shield.effect.charge ASFlag = #as.global_settings.duration.infernal.burning_shield.effect.charge ASFlag run scoreboard players set #as.global_settings.duration.infernal.burning_shield.effect.charge ASFlag 20
 execute unless score #as.global_settings.duration.infernal.dragons_breath.effect.charge ASFlag = #as.global_settings.duration.infernal.dragons_breath.effect.charge ASFlag run scoreboard players set #as.global_settings.duration.infernal.dragons_breath.effect.charge ASFlag 20
 
+execute unless score #as.global_settings.duration.lightning.dancing_lightning.effect.charge ASFlag = #as.global_settings.duration.lightning.dancing_lightning.effect.charge ASFlag run scoreboard players set #as.global_settings.duration.lightning.dancing_lightning.effect.charge ASFlag 20
+execute unless score #as.global_settings.duration.lightning.dancing_lightning.effect.jump ASFlag = #as.global_settings.duration.lightning.dancing_lightning.effect.jump ASFlag run scoreboard players set #as.global_settings.duration.lightning.dancing_lightning.effect.jump ASFlag 1
+
 
 
 #> [ --- DAMAGES --- ]
@@ -226,3 +232,7 @@ execute unless score #as.global_settings.damage.infernal.fireball.charge.2 ASFla
 execute unless score #as.global_settings.damage.infernal.fireball.charge.3 ASFlag = #as.global_settings.damage.infernal.fireball.charge.3 ASFlag run scoreboard players set #as.global_settings.damage.infernal.fireball.charge.3 ASFlag 16
 execute unless score #as.global_settings.damage.infernal.ring_of_ember ASFlag = #as.global_settings.damage.infernal.ring_of_ember ASFlag run scoreboard players set #as.global_settings.damage.infernal.ring_of_ember ASFlag 5
 execute unless score #as.global_settings.damage.infernal.dragons_breath ASFlag = #as.global_settings.damage.infernal.dragons_breath ASFlag run scoreboard players set #as.global_settings.damage.infernal.dragons_breath ASFlag 10
+
+
+# Lightning Wand
+execute unless score #as.global_settings.damage.lightning.dancing_lightning ASFlag = #as.global_settings.damage.lightning.dancing_lightning ASFlag run scoreboard players set #as.global_settings.damage.lightning.dancing_lightning ASFlag 10
